@@ -1,0 +1,40 @@
+{
+  "gastroId": 1,
+  "name": "Mensa",
+  "date": "2017-12-11",
+  "Geschlossen": "Dreikönig"
+  "meals": [
+    {
+      "id": 12031,
+      "disspositionTyp": "suppe",
+      "disspositonsId": 123,
+      "rang": 2,
+      "description": "Brokkolicremsuppe",
+      "ingredients": [23,24],
+      "kennzeichnung": ["van", "bio"],
+      "price": 
+      [
+        {
+          "student": 34,
+          "mitarbeiter": 40.3,
+          "schueler": 34,
+          "externe": 50.55
+          
+        }
+        ],
+      "nutritionalValue":
+      [
+        {
+        "unitOfMeasurement":"kcal/100g",
+        "fat":"2305,23",
+        "protein":"234,24",
+        "carbon":"null"
+        }
+        ],
+        "img": "suppe7.png/jpg",
+        "timeWindow": [1230, 1345]
+        
+        
+    }
+  ]
+}

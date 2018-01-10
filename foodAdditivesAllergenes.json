@@ -1,0 +1,242 @@
+{
+  "langugae": [
+    "EN",
+    "DE"
+  ],
+  "EN": {
+    "foodAdditives": [
+      {
+        "1": [
+          "colouring",
+          "PathICONSufix"
+        ],
+        "2": [
+          "preservatives",
+          "PathICONSufix"
+        ],
+        "3": [
+          "anti-oxidiser",
+          "PathICONSufix"
+        ],
+        "4": [
+          "flavouring",
+          "PathICONSufix"
+        ],
+        "5": [
+          "treated with sulphur",
+          "PathICONSufix"
+        ],
+        "6": [
+          "blackened",
+          "PathICONSufix"
+        ],
+        "7": [
+          "waxed",
+          "PathICONSufix"
+        ],
+        "8": [
+          "phosphate",
+          "PathICONSufix"
+        ],
+        "9": [
+          "sweetener",
+          "PathICONSufix"
+        ],
+        "10": [
+          "phenylalanine",
+          "PathICONSufix"
+        ],
+        "11": [
+          "alcohol",
+          "PathICONSufix"
+        ]
+      }
+    ],
+    "allergenes": [
+      {
+        "13": [
+          "shellfishes",
+          "PathICONSufix"
+        ],
+        "14": [
+          "eggs",
+          "PathICONSufix"
+        ],
+        "22": [
+          "peanuts",
+          "PathICONSufix"
+        ],
+        "23": [
+          "soy",
+          "PathICONSufix"
+        ],
+        "24": [
+          "milk or milk products\n",
+          "PathICONSufix"
+        ],
+        "25": [
+          "nuts or pulse\n",
+          "PathICONSufix"
+        ],
+        "26": [
+          "celery",
+          "PathICONSufix"
+        ],
+        "27": [
+          "mustard",
+          "PathICONSufix"
+        ],
+        "28": [
+          "sesame seeds",
+          "PathICONSufix"
+        ],
+        "29": [
+          "sulfur dioxid",
+          "PathICONSufix"
+        ],
+        "30": [
+          "sulfites",
+          "PathICONSufix"
+        ],
+        "31": [
+          "lupine",
+          "PathICONSufix"
+        ],
+        "32": [
+          "mollusces",
+          "PathICONSufix"
+        ],
+        "33": [
+          "TODO",
+          "PathICONSufix"
+        ],
+        "34": [
+          "gluten",
+          "PathICONSufix"
+        ],
+        "35": [
+          "fish",
+          "PathICONSufix"
+        ]
+      }
+    ]
+  },
+  "DE": {
+    "Inhaltsstoffe": [
+      {
+        "1": [
+          "Farbstoff",
+          "PathICONSufix"
+        ],
+        "2": [
+          "Konservierungstoff",
+          "PathICONSufix"
+        ],
+        "3": [
+          "Antioxidationsmittel",
+          "PathICONSufix"
+        ],
+        "4": [
+          "Geschmacksverstärker",
+          "PathICONSufix"
+        ],
+        "5": [
+          "geschwefelt",
+          "PathICONSufix"
+        ],
+        "6": [
+          "geschwärzt",
+          "PathICONSufix"
+        ],
+        "7": [
+          "gewachst",
+          "PathICONSufix"
+        ],
+        "8": [
+          "Phosphat",
+          "PathICONSufix"
+        ],
+        "9": [
+          "Süßungsmittel",
+          "PathICONSufix"
+        ],
+        "10": [
+          "Phenylalanin",
+          "PathICONSufix"
+        ],
+        "11": [
+          "Alkohol",
+          "PathICONSufix"
+        ]
+      }
+    ],
+    "Allergene": [
+      {
+        "13": [
+          "Krebstiere",
+          "PathICONSufix"
+        ],
+        "14": [
+          "Eier",
+          "PathICONSufix"
+        ],
+        "17": [
+          "Erdnüsse",
+          "PathICONSufix"
+        ],
+        "22": [
+          "Soja",
+          "PathICONSufix"
+        ],
+        "23": [
+          "Milch/Milchprodukte ",
+          "PathICONSufix"
+        ],
+        "24": [
+          "Schalenfrüchte/alle Nussarten ",
+          "PathICONSufix"
+        ],
+        "25": [
+          "Sellerie",
+          "PathICONSufix"
+        ],
+        "26": [
+          "Senf",
+          "PathICONSufix"
+        ],
+        "28": [
+          "Sesamsamen",
+          "PathICONSufix"
+        ],
+        "29": [
+          "Schwefeldioxid",
+          "PathICONSufix"
+        ],
+        "30": [
+          "Sulfite",
+          "PathICONSufix"
+        ],
+        "31": [
+          "Lupine",
+          "PathICONSufix"
+        ],
+        "32": [
+          "Weichtiere",
+          "PathICONSufix"
+        ],
+        "33": [
+          "TODO",
+          "PathICONSufix"
+        ],
+        "34": [
+          "Gluten",
+          "PathICONSufix"
+        ],
+        "35": [
+          "Fisch",
+          "PathICONSufix"
+        ]
+      }
+    ]
+  }
+}

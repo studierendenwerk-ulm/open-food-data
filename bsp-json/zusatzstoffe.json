@@ -1,0 +1,15 @@
+{
+  "langugae" : ["EN", "DE"],
+  "EN":{
+    "foodAdditives": 
+      [
+        "1": ["colouring", "PathICONSufix"],
+        "2": "preservatives",
+        "3": "anti-oxidiser"
+        ]
+    },
+    "DE": {
+      
+    }
+    
+}

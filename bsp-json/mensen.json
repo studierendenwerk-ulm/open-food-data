@@ -1,0 +1,37 @@
+{
+  "formatVersion": 0, // Version. Wird einfach hochgezählt.
+  "updated": "2017-12-20T16:34:41.000Z", //diese Datei
+  "company": "Studierendenwerk Ulm",
+  "website": "https://studierendenwerk-ulm.de/",
+  "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+  "formatSpec": "https://github.com/studierendenwerk-ulm/open-data-food",
+  "disclaimer": "TODO Lik zu LICENS",
+  
+  "betriebe": [
+    {
+      "id": "610",
+      "name":"Mensa, Uni Ulm",
+	  "address":"Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm", //zu Metadaten
+	  "city":["Ulm"],
+	  //"availableToStudents": ["Ulm University", "Hochschule Ulm"],
+	  //falls die diese beschreibung ist alternativ zu->
+	  "universities": ["Uni Ulm", "HS Ulm"], //wozu es verwendet werden soll
+	  //"coordinates": "+40.6894-074.0447" //WGS-84!!
+	  "coordinates": [{"latitude": "123", "longitude": "123", "altitude": "123"}],
+	  //Zeiten?? TODO
+	  "speisedatenUrlPathInfix" : "/speisen/610/",
+	  "metadatenUrlPathSuffix": "/betriebe/610.json"
+	  "metadatenUrlPathSuffix": "/betriebe/610-kennz.json"
+    },
+    {
+      "id": "611",
+      "name": "Bistro, Uni Ulm",
+	  "address":"Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm", 
+	  "city":"Ulm",
+	  "availableToStudents": ["Ulm University", "Hochschule Ulm"],
+      "coordinates": [{"latitude": "123", "longitude": "123", "altitude": "123"}],
+	  "speisedatenURL" : "/open-data-food/bsp-json/betriebe/611.json",
+	  "metadatenURL": "/open-data-food/bsp-json/betriebe/610/611-metadaten.json"
+    }
+    ]
+  }
