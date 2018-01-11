@@ -1,8 +1,4 @@
-# Studierendenwerk Ulm
-
-[![N|Solid](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://nodesource.com/products/nsolid)
-
-# Open Data Food
+# OpenFoodData
 Dise Schnittstelle ist zu Entwicklung für Externer Applicationen gedacht.
 
   - Es kann jeder frei darauf zugreifen.
@@ -18,3 +14,7 @@ Dise Schnittstelle ist zu Entwicklung für Externer Applicationen gedacht.
 # V1
 > Zu gegebener Zeit wird es einer neue Version geben, wenn wir neue Features implementiert haben.
   - Bei GitHub unter https://github.com/studierendenwerk-ulm/open-data-food/milestones können Sie sich über der aktuellen Stand informiert. 
+  
+# by Studierendenwerk Ulm
+
+[![N|Solid](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://nodesource.com/products/nsolid)
