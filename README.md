@@ -17,4 +17,6 @@ Dise Schnittstelle ist zu Entwicklung für Externer Applicationen gedacht.
   
 # by Studierendenwerk Ulm
 
+Aron Lanza, Simon Lüke
+
 [![N|Solid](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://nodesource.com/products/nsolid)
