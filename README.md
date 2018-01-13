@@ -28,10 +28,10 @@ Weitere Versionen sollen bei Bedarf erscheinen. Entweder weil mit der Zeit Rück
 
 ---
 
-**by Studierendenwerk Ulm**
+**Studierendenwerk Ulm**
 
 Aron Lanza, Simon Lüke
 
-Siehe [LICENSE].
+Siehe (LICENSE).
 
 [![Logo Studierendenwerk Ulm](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://studierendenwerk-ulm.de/)
