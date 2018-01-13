@@ -1,0 +1,32 @@
+{
+  "timestamp": "2017-12-20T16:34:41.000Z",
+  "id": 610,
+  "website": "https://studierendenwerk-ulm.de/",
+  "specVersion": 0,
+  "openingHours":
+  [
+    {
+    "mo":[1130,1330],
+    "di":[1130,1330],
+    "mi":[1130,1330],
+    "do":[1130,1330],
+    "fr":[1130,1330],
+    "sa":[null,null],
+    "so":[null,null]
+    }
+  ],
+  "ingredientsUrlPathSuffix": "/betriebe/610/610-ingredients.json"
+  "discounts":
+  {
+	"happyHour":[1345,1400],
+	"dalySpecial":"TODO",
+	"anySpecial" :"Bis Semesterende erwartet Euch ein leckerr Waffelstand vor der Mensa"
+
+  },
+  "importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa geräumt werden!",
+  "feedback": "mensa@studierendenwerk-ulm.de",
+  "footNotes" : [
+    "",
+    ""
+  ]
+}

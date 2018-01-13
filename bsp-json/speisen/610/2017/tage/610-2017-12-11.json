@@ -1,27 +1,21 @@
 {
-  "apiVersion": 0,
-  "updated": "2017-12-20T16:34:41.000Z",
-  "website": "https://studierendenwerk-ulm.de/",
-  "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
-  "spec": "https://github.com/studierendenwerk-ulm/open-data-food",
-  "disclaimer": "TODO",
-  "id": "610",
-  "name": "Mensa",
+  "timestamp": "2017-12-20T16:34:41.000Z",
+  "id": 610,
   "date": "2017-12-11",
-  "open": "false",
-  "closedReason": "Dreikönig",
+  "closed": null,
+  "specVersion": 0,
   "meals": [
     {
-      "id": 12031,
-      "disspositionTyp": "Suppe",
-      "disspositonsId": 123,
-      "rang": 2,
+      "mealId": 12031,
       "description": "Brokkolicremsuppe",
+      "dispositionTyp": "Suppe",
+      "dispositionId": 123,
+      "ordering": 2,
       "ingredients": [
         23,
         24
       ],
-      "kennzeichnung": [
+      "characterization": [
         "van",
         "bio"
       ],
@@ -41,7 +35,7 @@
           "carbon": "null"
         }
       ],
-      "img": "suppe7.png/jpg",
+      "img": "suppe7.jpg",
       "timeWindow": [
         1230,
         1345
