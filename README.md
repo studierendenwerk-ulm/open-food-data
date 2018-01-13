@@ -32,6 +32,6 @@ Weitere Versionen sollen bei Bedarf erscheinen. Entweder weil mit der Zeit Rück
 
 Aron Lanza, Simon Lüke
 
-Siehe (LICENSE).
+Siehe [LICENSE](./LICENSE).
 
 [![Logo Studierendenwerk Ulm](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://studierendenwerk-ulm.de/)
