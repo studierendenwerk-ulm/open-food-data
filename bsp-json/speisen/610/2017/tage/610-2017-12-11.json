@@ -7,10 +7,24 @@
   "meals": [
     {
       "mealId": 61,
+	  "available": true,
       "description": "Brokkolicremsuppe",
       "dispositionTyp": "Suppe",
       "dispositionId": 61,
       "ordering": 2,
+	  "sideInclusive": true,
+	  "sideInclusive": [
+	  { 
+		"1": "idSide",
+		"2": "idSide"
+	  },
+	  ]
+	  "sideExclusive": false,
+	  "sideExclusive": [
+	  { 
+		"1": "null",
+		"2": "null"
+	  }
       "ingredients": [
         23,
         26
@@ -22,18 +36,23 @@
 		"konventionell": false,
         "bio":true
       ],
+	  
       "price": [
         {
           "student": 0.00,
+		  "inAdditionStudent": 0.00,
           "mitarbeiter": 0.00,
+		  "inAdditionMitarbeiter": 0.00,
           "schueler": 0.00,
-          "externe": 0.00
+		  "inAdditionSchueler": 0.00,
+          "externe": 0.00,
+		  "inAdditionExtern": 0.00
         }
       ],
       "nutritionalValue": [
         {
           "unitOfMeasurement": ["kcal/100g","kcal/100ml"],
-          "EnergyValue": 100,
+          "EnergyValueKcla": 100,
 		  "unitOfMeasurementGram":true,
 		  "fat": 10,
 		  "saturatedFattyAcids": 5,
@@ -49,6 +68,11 @@
         1130,
         1345
       ]
-    }
+    },
+	"sides":{
+		"1": "Pommes",
+		"2": "Brötchen"
+	}
+	
   ]
 }
