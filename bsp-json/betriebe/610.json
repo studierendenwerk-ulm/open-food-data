@@ -3,7 +3,7 @@
   "id": 610,
   "website": "https://studierendenwerk-ulm.de/",
   "specVersion": 0,
-  "openingHours":
+  "openingHoursLectureTime":
   [
     {
     "mo":[1130,1330],
@@ -11,17 +11,26 @@
     "mi":[1130,1330],
     "do":[1130,1330],
     "fr":[1130,1330],
-    "sa":[null,null],
-    "so":[null,null]
+    "sa":null,
+    "so":null
+    }
+  ],  "openingHoursLectureFreeTime":
+  [
+    {
+    "mo":[1130,1330],
+    "di":[1130,1330],
+    "mi":[1130,1330],
+    "do":[1130,1330],
+    "fr":[1130,1330],
+    "sa":null,
+    "so":null
     }
   ],
-  "ingredientsUrlPathSuffix": "/betriebe/610/610-ingredients.json"
-  "discounts":
-  {
-	"happyHour":[1345,1400],
-	"dalySpecial":"null",
-	"anySpecial" :"Bis Semesterende erwartet Euch ein leckerr Waffelstand vor der Mensa"
-
+  "ingredientsUrlPathSuffix": "/betriebe/610/610-ingredients.json",
+  "specialsPermanent":
+  [
+	"Bis Semesterende erwartet Euch ein leckerr Waffelstand vor der Mensa",
+	"Happy hour von 13:45 bis 14:00 Uhr"
   },
   "importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa geräumt werden!",
   "feedback": "mensa@studierendenwerk-ulm.de",

@@ -2,7 +2,7 @@
   "timestamp": "2017-12-20T16:34:41+01:00",
   "id": 610,
   "date": "2017-12-11",
-  "closed": false,
+  "closed": null,
   "specVersion": 0,
   "meals": [
     {
@@ -12,48 +12,27 @@
       "dispositionTyp": "Suppe",
       "dispositionId": 61,
       "ordering": 2,
-	  "sideInclusive": true,
-	  "sideInclusive": [
-	  { 
-		"1": "idSide",
-		"2": "idSide"
-	  },
-	  ]
-	  "sideExclusive": false,
-	  "sideExclusive": [
-	  { 
-		"1": "null",
-		"2": "null"
-	  }
       "ingredients": [
         23,
-        26
+        26,
+		34W
       ],
 	  "NatruinSizeInGram": 234,
       "characterization": [
-        "vegan": true,
-		"vegetraisch": true,
-		"konventionell": false,
-        "bio":true
-      ],
+        "van", "bio"],
 	  
       "price": [
         {
           "student": 0.00,
-		  "inAdditionStudent": 0.00,
           "mitarbeiter": 0.00,
-		  "inAdditionMitarbeiter": 0.00,
           "schueler": 0.00,
-		  "inAdditionSchueler": 0.00,
-          "externe": 0.00,
-		  "inAdditionExtern": 0.00
+          "externe": 0.00
         }
       ],
       "nutritionalValue": [
         {
-          "unitOfMeasurement": ["kcal/100g","kcal/100ml"],
-          "EnergyValueKcla": 100,
-		  "unitOfMeasurementGram":true,
+          "unitOfMeasurement": "kcal/100g",
+          "EnergyValueKcla": 478,
 		  "fat": 10,
 		  "saturatedFattyAcids": 5,
 		  "polyunsaturatedFattyAcids": 5,
@@ -68,11 +47,7 @@
         1130,
         1345
       ]
-    },
-	"sides":{
-		"1": "Pommes",
-		"2": "Brötchen"
-	}
+    }
 	
   ]
 }
