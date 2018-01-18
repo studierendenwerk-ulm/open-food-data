@@ -1,5 +1,5 @@
 {
-  "timestamp": "2017-12-20T16:34:41.000Z",
+  "timestamp": "2017-12-20T16:34:41+01:00",
   "id": 610,
   "website": "https://studierendenwerk-ulm.de/",
   "specVersion": 0,
@@ -19,14 +19,14 @@
   "discounts":
   {
 	"happyHour":[1345,1400],
-	"dalySpecial":"TODO",
+	"dalySpecial":"null",
 	"anySpecial" :"Bis Semesterende erwartet Euch ein leckerr Waffelstand vor der Mensa"
 
   },
   "importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa geräumt werden!",
   "feedback": "mensa@studierendenwerk-ulm.de",
   "footNotes" : [
-    "",
-    ""
+    "null",
+    "null"
   ]
 }

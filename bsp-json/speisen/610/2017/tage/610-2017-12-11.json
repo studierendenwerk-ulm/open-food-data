@@ -1,43 +1,52 @@
 {
-  "timestamp": "2017-12-20T16:34:41.000Z",
+  "timestamp": "2017-12-20T16:34:41+01:00",
   "id": 610,
   "date": "2017-12-11",
-  "closed": null,
+  "closed": false,
   "specVersion": 0,
   "meals": [
     {
-      "mealId": 12031,
+      "mealId": 61,
       "description": "Brokkolicremsuppe",
       "dispositionTyp": "Suppe",
-      "dispositionId": 123,
+      "dispositionId": 61,
       "ordering": 2,
       "ingredients": [
         23,
-        24
+        26
       ],
+	  "NatruinSizeInGram": 234,
       "characterization": [
-        "van",
-        "bio"
+        "vegan": true,
+		"vegetraisch": true,
+		"konventionell": false,
+        "bio":true
       ],
       "price": [
         {
-          "student": 34,
-          "mitarbeiter": 40.3,
-          "schueler": 34,
-          "externe": 50.55
+          "student": 0.00,
+          "mitarbeiter": 0.00,
+          "schueler": 0.00,
+          "externe": 0.00
         }
       ],
       "nutritionalValue": [
         {
-          "unitOfMeasurement": "kcal/100g",
-          "fat": "2305,23",
-          "protein": "234,24",
-          "carbon": "null"
+          "unitOfMeasurement": ["kcal/100g","kcal/100ml"],
+          "EnergyValue": 100,
+		  "unitOfMeasurementGram":true,
+		  "fat": 10,
+		  "saturatedFattyAcids": 5,
+		  "polyunsaturatedFattyAcids": 5,
+          "protein": 10,
+          "carbon": 60,
+		  "shugar": 19,
+		  "salt": 1,
         }
       ],
-      "img": "suppe7.jpg",
+      "img": "null",
       "timeWindow": [
-        1230,
+        1130,
         1345
       ]
     }

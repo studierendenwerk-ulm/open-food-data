@@ -1,11 +1,11 @@
 {
-  "timestamp": "2017-12-20T16:34:41.000Z",
+  "timestamp": "2017-12-20T16:34:41+01:00",
   "spec": "https://github.com/studierendenwerk-ulm/open-food-data",
   "specVersion": 0,
   "company": "Studierendenwerk Ulm",
   "website": "https://studierendenwerk-ulm.de/",
   "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
-  "disclaimerData": "TODO Nutzungsbedingungen",
+  "disclaimerData": "TODO Nutzungsbedingungen: Url aktuell unbekannt",
   "shops": [
     {
       "id": "610",
@@ -13,11 +13,11 @@
   	  "address":"Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
   	  "city":["Ulm"],
   	  "universities": ["Uni Ulm", "HS Ulm"],
-  	  //"coordinates": "+40.6894-074.0447" //WGS-84!!
-  	  "coordinates": [{"latitude": "123", "longitude": "123", "altitude": "123"}],
-  	  //Zeiten?? TODO
+  	  "coordinates": "48.421849, 9.955415" //WGS-84!!
+  	  //"coordinates": [{"latitude": "123", "longitude": "123", "altitude": "123"}],
+  	  
       "shopMetadataUrlPathSuffix": "/betriebe/610.json",
-  	  "foodDataUrlPathInfix" : "/speisen/610/ FIXME",
+  	  "foodDataUrlPathInfix" : "/speisen/610/"
     },
     {
       "TODO wie oben, sobald wir's abgestimmt haben",
