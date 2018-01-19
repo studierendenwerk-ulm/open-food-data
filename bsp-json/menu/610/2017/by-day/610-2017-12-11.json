@@ -1,0 +1,48 @@
+{
+  "timestamp": "2017-12-20T16:34:41+01:00",
+  "specVersion": 0,
+  "id": "610",
+  "date": "2017-12-11",
+  "closed": null,
+  "meals": [
+    {
+      "mealId": 61,
+	    "available": true,
+      "descriptionDE": "Brokkolicremsuppe",
+      "descriptionEN": null,
+      "dispositionTypDE": "Suppe",
+      "dispositionTypEN": null,
+      "dispositionId": 61,
+      "ordering": 2,
+      "ingredients": [ 23, 26, 34W ],
+      "characterization": [ "van", "bio"],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": [1130,1345]
+      "price": [
+        {
+          "1": 0.00,
+          "2": 0.00,
+          "3": 0.00,
+          "4": 0.00
+        }
+      ],
+      nutritionInformation:[
+            "portiuonSizeInGram": 234,
+            "portiuonSizeInML": null,
+            "nutritionalValue": [
+              {
+                "unitOfMeasurement": "kcal/100g",
+                "energyValueKcla": 478,
+          		  "fat": 10,
+          		  "saturatedFattyAcids": 5,
+          		  "polyunsaturatedFattyAcids": 5,
+                "protein": 10,
+                "carbon": 60,
+          		  "shugar": 19,
+          		  "salt": 1,
+              }
+            ],
+        ]
+    }
+  ]
+}
