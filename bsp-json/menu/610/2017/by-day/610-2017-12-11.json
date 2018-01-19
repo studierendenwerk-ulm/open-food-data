@@ -1,11 +1,11 @@
 {
   "timestamp": "2017-12-20T16:34:41+01:00",
   "specVersion": 0,
-  "id": "610",
+  "shopId": "610",
   "date": "2017-12-11",
   "closed": null,
-  "meals": {
-    "meal1": {
+  "meals": [
+    {
       "mealId": 61,
       "available": true,
       "descriptionDE": "Brokkolicremsuppe",
@@ -50,5 +50,5 @@
         }
       }
     }
-  }
+  ]
 }

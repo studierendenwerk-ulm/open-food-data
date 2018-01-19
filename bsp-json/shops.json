@@ -8,7 +8,7 @@
   "disclaimerData": "TODO Nutzungsbedingungen: Url aktuell unbekannt",
   "shops": [
     {
-      "id": "610",
+      "shopId": "610",
       "name": "Mensa, Uni Ulm",
       "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
       "city": [
@@ -26,23 +26,7 @@
       "shopMetadataUrlPathSuffix": "/betriebe/610.json"
     },
     {
-      "id": "611",
-      "name": "Bistro, Uni Ulm",
-      "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
-      "city": "Ulm",
-      "availableToStudents": [
-        "Ulm University",
-        "Hochschule Ulm"
-      ],
-      "coordinates": [
-        {
-          "latitude": "123",
-          "longitude": "123",
-          "altitude": "123"
-        }
-      ],
-      "speisedatenURL": "/open-data-food/bsp-json/betriebe/611.json",
-      "metadatenURL": "/open-data-food/bsp-json/betriebe/610/611-metadaten.json"
+      "TODO"
     }
   ]
 }
