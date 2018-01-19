@@ -2,58 +2,101 @@
   "timestamp": "2017-12-20T16:34:41+01:00",
   "specVersion": 0,
   "id": "610",
-  "foodDataUrlPathInfix" : "/speisen/610/",
+  "foodDataUrlPathInfix": "/speisen/610/",
   "ingredientsUrlPathSuffix": "/betriebe/610/610-ingredients.json",
   "symbolsUrlPathInfix": "/betriebe/img/",
-  "priceCategories":
-    {
-      "1": "Studierende",
-      "2": "Mitarbeiter",
-      "3": "Gäste",
-      "4": "Schüler"
-    },
+  "priceCategories": {
+    "1": "Studierende",
+    "2": "Mitarbeiter",
+    "3": "Gäste",
+    "4": "Schüler"
+  },
   "website": "https://studierendenwerk-ulm.de/",
   "feedback": "mensa@studierendenwerk-ulm.de",
-  "specialsPermanent":
-  [
+  "specialsPermanent": [
     "Bis Semesterende erwartet Euch ein leckerr Waffelstand vor der Mensa",
     "Happy hour von 13:45 bis 14:00 Uhr"
   ],
   "importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!",
-  "footNotes" : [
+  "footNotes": [
     "null",
     "TODO SL",
     "null"
   ],
-  "openingHoursLectureTime":
-  [ "2017-10-16P2018-02-18": {
-        "mo":[1130,1330],
-        "di":[1130,1330],
-        "mi":[1130,1330],
-        "do":[1130,1330],
-        "fr":[1130,1330],
-        "sa":null,
-        "so":null
-      },
+  "openingHoursLectureTime": {
+    "2017-10-16P2018-02-18": {
+      "mo": [
+        1130,
+        1330
+      ],
+      "di": [
+        1130,
+        1330
+      ],
+      "mi": [
+        1130,
+        1330
+      ],
+      "do": [
+        1130,
+        1330
+      ],
+      "fr": [
+        1130,
+        1330
+      ],
+      "sa": null,
+      "so": null
+    },
     "2018-04-16P2018-07-27": {
-          "mo":[1130,1330],
-          "di":[1130,1330],
-          "mi":[1130,1330],
-          "do":[1130,1330],
-          "fr":[1130,1330],
-          "sa":null,
-          "so":null
-          }
-  ],
-  "openingHoursLectureFreeTime":
-  [ "2018-02-19P2018-04-15": {
-      "mo":[1130,1330],
-      "di":[1130,1330],
-      "mi":[1130,1330],
-      "do":[1130,1330],
-      "fr":[1130,1330],
-      "sa":null,
-      "so":null
+      "mo": [
+        1130,
+        1330
+      ],
+      "di": [
+        1130,
+        1330
+      ],
+      "mi": [
+        1130,
+        1330
+      ],
+      "do": [
+        1130,
+        1330
+      ],
+      "fr": [
+        1130,
+        1330
+      ],
+      "sa": null,
+      "so": null
     }
-  ]
+  },
+  "openingHoursLectureFreeTime": {
+    "2018-02-19P2018-04-15": {
+      "mo": [
+        1130,
+        1330
+      ],
+      "di": [
+        1130,
+        1330
+      ],
+      "mi": [
+        1130,
+        1330
+      ],
+      "do": [
+        1130,
+        1330
+      ],
+      "fr": [
+        1130,
+        1330
+      ],
+      "sa": null,
+      "so": null
+    }
+  }
 }

@@ -9,23 +9,40 @@
   "shops": [
     {
       "id": "610",
-      "name":"Mensa, Uni Ulm",
-  	  "address":"Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
-  	  "city":["Ulm"],
-  	  "universities": ["Uni Ulm", "HS Ulm"],
-  	  "coordinates": {"latitude": 48.421849, "longitude": 9.955415, "altitude": 666},
+      "name": "Mensa, Uni Ulm",
+      "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+      "city": [
+        "Ulm"
+      ],
+      "universities": [
+        "Uni Ulm",
+        "HS Ulm"
+      ],
+      "coordinates": {
+        "latitude": 48.421849,
+        "longitude": 9.955415,
+        "altitude": 666
+      },
       "shopMetadataUrlPathSuffix": "/betriebe/610.json"
     },
     {
-      "TODO wie oben, sobald wir's abgestimmt haben",
       "id": "611",
       "name": "Bistro, Uni Ulm",
-	  "address":"Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
-	  "city":"Ulm",
-	  "availableToStudents": ["Ulm University", "Hochschule Ulm"],
-      "coordinates": [{"latitude": "123", "longitude": "123", "altitude": "123"}],
-	  "speisedatenURL" : "/open-data-food/bsp-json/betriebe/611.json",
-	  "metadatenURL": "/open-data-food/bsp-json/betriebe/610/611-metadaten.json"
+      "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+      "city": "Ulm",
+      "availableToStudents": [
+        "Ulm University",
+        "Hochschule Ulm"
+      ],
+      "coordinates": [
+        {
+          "latitude": "123",
+          "longitude": "123",
+          "altitude": "123"
+        }
+      ],
+      "speisedatenURL": "/open-data-food/bsp-json/betriebe/611.json",
+      "metadatenURL": "/open-data-food/bsp-json/betriebe/610/611-metadaten.json"
     }
   ]
 }
