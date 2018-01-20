@@ -7,13 +7,17 @@
   "meals": [
     {
       "mealId": 61,
-      "available": true,
-      "descriptionDE": "Brokkolicremsuppe",
-      "descriptionEN": null,
-      "dispositionTypDE": "Suppe",
-      "dispositionTypEN": null,
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Brokkolicremsuppe",
+        "EN": null
+      },
       "dispositionId": 61,
-      "ordering": 2,
+      "dispositionDescription": {
+        "DE": "Suppe",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
       "ingredients": [
         "23",
         "26",
@@ -29,26 +33,12 @@
         1345
       ],
       "price": {
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0
+        "1": 1.8,
+        "2": 2.25,
+        "3": 3.2,
+        "4": 5.6
       },
-      "nutritionInformation": {
-        "portiuonSizeInGram": 234,
-        "portiuonSizeInML": null,
-        "nutritionalValue": {
-          "unitOfMeasurement": "kcal/100g",
-          "energyValueKcla": 478,
-          "fat": 10,
-          "saturatedFattyAcids": 5,
-          "polyunsaturatedFattyAcids": 5,
-          "protein": 10,
-          "carbon": 60,
-          "shugar": 19,
-          "salt": 1
-        }
-      }
+      "nutritionInformation": null
     }
   ]
 }

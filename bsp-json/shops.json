@@ -1,11 +1,11 @@
 {
   "timestamp": "2017-12-20T16:34:41+01:00",
-  "spec": "https://github.com/studierendenwerk-ulm/open-food-data",
+  "spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0",
   "specVersion": 0,
   "company": "Studierendenwerk Ulm",
   "website": "https://studierendenwerk-ulm.de/",
   "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
-  "disclaimerData": "TODO Nutzungsbedingungen: Url aktuell unbekannt",
+  "disclaimerData": "TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL",
   "shops": [
     {
       "shopId": "610",
@@ -19,13 +19,20 @@
         "HS Ulm"
       ],
       "coordinates": {
-        "latitude": 48.421849,
-        "longitude": 9.955415,
-        "altitude": 666
+        "latitude": 48.422065,
+        "longitude": 9.955517,
+        "altitude": 604
       },
-      "shopMetadataUrlPathSuffix": "/betriebe/610.json"
+      "shopMetadataUrlPathSuffix": "/shops/610.json"
     },
     {
+      "shopId": "710a",
+      "name": "Cafeteria South Side, Uni Ulm",
+      "TODO"
+    },
+    {
+      "shopId": "710b",
+      "name": "Cafeteria Nord, Uni Ulm",
       "TODO"
     }
   ]

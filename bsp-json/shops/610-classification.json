@@ -1,32 +1,32 @@
 {
-  "classification": {
+  "characterization": {
     "veg": {
       "description": {
         "DE": "vegetarisch",
         "EN": "vegetarian"
       },
-      "iconUrlPathSufix": "/vegetarisch.png"
+      "recommendedIcon": "img/icons/meatless"
     },
     "kon": {
       "description": {
         "DE": "konventionell",
         "EN": "conventional"
       },
-      "iconUrlPathSufix": "/konventionell.png"
+      "iconUrlPathSufix": null
     },
     "bio": {
       "description": {
         "DE": "bio",
         "EN": "bio"
       },
-      "iconUrlPathSufix": "/bio.png"
+      "recommendedIcon": null
     },
     "van": {
       "description": {
         "DE": "vegan",
         "EN": "vegan"
       },
-      "iconUrlPathSufix": "/vegan.png"
+      "recommendedIcon": "/img/icons/vegan"
     }
   },
   "ingredients": {
@@ -35,308 +35,308 @@
         "DE": "Farbstoff",
         "EN": "colouring"
       },
-      "iconUrlPathSufix": "/farbstoff.png"
+      "recommendedIcon": null
     },
     "2": {
       "description": {
         "DE": "Konservierungsstoff",
         "EN": "preservatives"
       },
-      "iconUrlPathSufix": "/konservierungsstoff.png"
+      "recommendedIcon": null
     },
     "3": {
       "description": {
         "DE": "Antioxidationsmittel",
         "EN": ""
       },
-      "iconUrlPathSufix": "/antioxidationsmittel.png"
+      "recommendedIcon": null
     },
     "4": {
       "description": {
         "DE": "Geschmacksverstärker",
         "EN": ""
       },
-      "iconUrlPathSufix": "/geschmacksverstaerker.png"
+      "recommendedIcon": null
     },
     "5": {
       "description": {
         "DE": "geschwefelt",
         "EN": ""
       },
-      "iconUrlPathSufix": "/geschwefelt.png"
+      "recommendedIcon": null
     },
     "6": {
       "description": {
         "DE": "geschwärzt",
         "EN": ""
       },
-      "iconUrlPathSufix": "/geschwaerzt.png"
+      "recommendedIcon": null
     },
     "7": {
       "description": {
         "DE": "gewachst",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gewachst.png"
+      "recommendedIcon": null
     },
     "8": {
       "description": {
         "DE": "Phosphat",
         "EN": ""
       },
-      "iconUrlPathSufix": "/phosphat.png"
+      "recommendedIcon": null
     },
     "9": {
       "description": {
         "DE": "Süßungsmittel",
         "EN": ""
       },
-      "iconUrlPathSufix": "/suessungsmittel.png"
+      "recommendedIcon": null
     },
     "10": {
       "description": {
         "DE": "Phenylalaninquelle",
         "EN": ""
       },
-      "iconUrlPathSufix": "/phenylalaninquelle.png"
+      "recommendedIcon": null
     },
     "11": {
       "description": {
         "DE": "Alkohol",
         "EN": ""
       },
-      "iconUrlPathSufix": "/alkohol.png"
+      "recommendedIcon": null
     },
     "13": {
       "description": {
         "DE": "Krebstiere",
         "EN": ""
       },
-      "iconUrlPathSufix": "/krebstiere.png"
+      "recommendedIcon": null
     },
     "14": {
       "description": {
         "DE": "Eier",
         "EN": ""
       },
-      "iconUrlPathSufix": "/eier.png"
+      "recommendedIcon": null
     },
     "18": {
       "description": {
         "DE": "Gelatine vom Schwein",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gelatine_vom_schwein.png"
+      "recommendedIcon": "/img/icons/pork"
     },
     "22": {
       "description": {
         "DE": "Erdnüsse",
         "EN": ""
       },
-      "iconUrlPathSufix": "/erdnuesse.png"
+      "recommendedIcon": null
     },
     "23": {
       "description": {
         "DE": "Soja",
         "EN": ""
       },
-      "iconUrlPathSufix": "/soja.png"
+      "recommendedIcon": null
     },
     "24": {
       "description": {
         "DE": "Milch/Milchprodukte (mit Laktose)",
         "EN": ""
       },
-      "iconUrlPathSufix": "/milchprodukte.png"
+      "recommendedIcon": null
     },
     "25": {
       "description": {
         "DE": "Schalenfrüchte",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte.png"
+      "recommendedIcon": null
     },
     "26": {
       "description": {
         "DE": "Sellerie",
         "EN": ""
       },
-      "iconUrlPathSufix": "/sellerie.png"
+      "recommendedIcon": null
     },
     "27": {
       "description": {
         "DE": "Senf",
         "EN": ""
       },
-      "iconUrlPathSufix": "/senf.png"
+      "recommendedIcon": null
     },
     "28": {
       "description": {
         "DE": "Sesamsamen",
         "EN": ""
       },
-      "iconUrlPathSufix": "/sesamsamen.png"
+      "recommendedIcon": null
     },
     "29": {
       "description": {
         "DE": "Schwefeldioxid",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schwefeldioxid.png"
+      "recommendedIcon": null
     },
     "30": {
       "description": {
         "DE": "Sulfite",
         "EN": ""
       },
-      "iconUrlPathSufix": "/sulfite.png"
+      "recommendedIcon": null
     },
     "31": {
       "description": {
         "DE": "Lupinen",
         "EN": ""
       },
-      "iconUrlPathSufix": "/lupinen.png"
+      "recommendedIcon": null
     },
     "32": {
       "description": {
         "DE": "Weichtiere",
         "EN": ""
       },
-      "iconUrlPathSufix": "/weichtiere.png"
+      "recommendedIcon": null
     },
     "34": {
       "description": {
         "DE": "Gluten",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gluten.png"
+      "recommendedIcon": null
     },
     "35": {
       "description": {
         "DE": "Fisch",
         "EN": ""
       },
-      "iconUrlPathSufix": "/fisch.png"
+      "recommendedIcon": "/img/icons/fish"
     },
     "18R": {
       "description": {
         "DE": "Rindergelatine",
         "EN": ""
       },
-      "iconUrlPathSufix": "/rindergelatine.png"
+      "recommendedIcon": "/img/icons/beef"
     },
     "25C": {
       "description": {
         "DE": "Schalenfrüchte-Cashewkerne",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_cashewkerne.png"
+      "recommendedIcon": null
     },
     "25H": {
       "description": {
         "DE": "Schalenfrüchte-Haselnuss",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_haselnuss.png"
+      "recommendedIcon": null
     },
     "25Ma": {
       "description": {
         "DE": "Schalenfrüchte-Macadamia",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_macadamia.png"
+      "recommendedIcon": null
     },
     "25Mn": {
       "description": {
         "DE": "Schalenfrüchte-Mandel",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_mandel.png"
+      "recommendedIcon": null
     },
     "25P": {
       "description": {
         "DE": "Schalenfrüchte-Pistazie",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_pistazie.png"
+      "recommendedIcon": null
     },
     "25PK": {
       "description": {
         "DE": "Schalenfrüchte-Pekanuss",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_pekanuss.png"
+      "recommendedIcon": null
     },
     "25W": {
       "description": {
         "DE": "schalenfruechte_walnuss",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schalenfruechte_walnuss.png"
+      "recommendedIcon": null
     },
     "34D": {
       "description": {
         "DE": "Gluten-Dinkel",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gluten_dinkel.png"
+      "recommendedIcon": null
     },
     "34G": {
       "description": {
         "DE": "Gluten-Gerste",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gluten_gerste.png"
+      "recommendedIcon": null
     },
     "34H": {
       "description": {
         "DE": "Gluten-Hafer",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gluten_hafer.png"
+      "recommendedIcon": null
     },
     "34R": {
       "description": {
         "DE": "Gluten-Roggen",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gluten_roggen.png"
+      "recommendedIcon": null
     },
     "34W": {
       "description": {
         "DE": "Gluten-Weizen",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gluten_weizen.png"
+      "recommendedIcon": null
     },
     "G": {
       "description": {
         "DE": "Geflügel",
         "EN": ""
       },
-      "iconUrlPathSufix": "/gefluegel.png"
+      "recommendedIcon": "/img/icons/poultry"
     },
     "L": {
       "description": {
         "DE": "Lamm",
         "EN": ""
       },
-      "iconUrlPathSufix": "/lamm.png"
+      "recommendedIcon": "/img/icons/lamb"
     },
     "R": {
       "description": {
         "DE": "Rind",
         "EN": ""
       },
-      "iconUrlPathSufix": "/rind.png"
+      "recommendedIcon": "/img/icons/beef"
     },
     "S": {
       "description": {
         "DE": "Schweinefleisch",
         "EN": ""
       },
-      "iconUrlPathSufix": "/schweinefleisch.png"
+      "recommendedIcon": "/img/icons/pork"
     }
   }
 }

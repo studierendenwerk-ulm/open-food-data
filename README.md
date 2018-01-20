@@ -1,18 +1,21 @@
 # OpenFoodData
 
-Hier finden Sie eine Spezifikation zur Veröffentlichung eines Speiseplans in einem strukturierten Datenformat. Statt der Veröffentlichung eines für Druck oder Bildschirm gestalteten tabellarischen Wochenplans oder z.B. einer Liste für einen Tagesplan kann ein Speiseangebot mit diesem Standard als Rohdaten in JSON veröffentlicht werden.
+*Eine Spezifikation zur Veröffentlichung von Speiseangeboten in einem strukturierten Datenformat.*
 
-Bei der Entwicklung wurden für die erste Version v.a. die Anforderungen von Hochschulmensen berücksichtigt; vermutlich genügt die Spezifiktion den meisten Betrieben der Gemeinschaftsversorgung. In einem für später angedachten zweiten Schritt soll auch das Angebot von Cafeterien abgebildet werden können, das sich typischweise nicht täglich ändert.
+Statt der Veröffentlichung eines für Druck oder Bildschirm gestalteten tabellarischen Wochenplans oder z.B. einer Liste für einen Tagesplan kann ein Speiseangebot mit diesem Standard als Rohdaten in JSON veröffentlicht werden.
 
-Die Spezifikation soll Dritten die Möglichkeit bieten über eine (hier nicht explizit definierte) Schnittstelle Speiseplandaten abzurufen, um damit einen neuen Dienst anzubieten (Smartphone-App, Anzeige des Tagesplans am dititalen Schwarzen Brett, Erzeugen einer spezialisierten alternativen Darstellung).
+Bei der Entwicklung wurden für die erste Version (v1) v.a. die Anforderungen von Hochschulmensen berücksichtigt. Vermutlich genügt die Spezifiktion den meisten Betrieben der Gemeinschaftsversorgung, evtl. auch der allgemeinen Gastronomie. In einem für später angedachten zweiten Schritt (spätere Version) soll auch das Angebot von (Hochschul-)Cafeterien abgebildet werden können, das sich typischweise nicht täglich ändert. Bei Weiterentwicklungen soll eine Abwärtskompatibilität zu vorigen Versionen starkes Gewicht haben.
 
-Zusammengefasst definiert die Spezifikation die Veröffentlichung der folgenden Daten:
+Eine dieser Spezifikation entsprechende Schnittstelle soll Dritten die Möglichkeit bieten die Daten eines Speiseangebots abzurufen, um damit einen Dienst anbieten zu können (z.B. Smartphone-App, Anzeige des Tagesplans an einem dititalen Schwarzen Brett, Erzeugen einer spezialisierten alternativen Darstellung). Der eigentlichen Spezifiktion `SPEZIFIKATION.md` liegen zum leichteren Verständnis im Ordner `bsp-json/` Beispieldaten. Die Datei- und Ordnerstruktur in `bsp-json/` stellt außerdem eine exemplarische Definition einer Schnittstelle dar, mit der ein Speiseangebot sozusagen “flat file” über einen Webserver veröffentlicht werden können.
+
+Grob zusammengefasst definiert die Spezifikation die Veröffentlichung der folgenden Daten:
  * an einem bestimmten Tag angebotene Speise
    * Bezeichnung
    * Preis
    * Kennzeichnung, Allergene, Inhaltsstoffe
+   * optional Zeitfenster des Angebots
    * ...
- * Informationen zu den Betrieben, die Speisen anbieten
+ * Informationen zu den Betrieben/Stellen, die Speisen anbieten
    * Bezeichnung
    * Adresse, Koordinaten
    * Öffnungszeiten
@@ -21,17 +24,14 @@ Zusammengefasst definiert die Spezifikation die Veröffentlichung der folgenden 
 
 ## Status
 
-Aktuell befindet sich Version **v0** in Entwicklung, eine Vorabversion. Diese Version soll dazu dienen von App-Entwicklern, die die Rohdaten verwenden, Rückmeldungen zu bekommen. Nach Einarbeiten dieser Rückmeldungen soll **v1** als erste Produktiversion erscheinen und damit Daten für erste Speisebetriebe des Studierendenwerks Ulm angeboten werden.
+Aktuell wird Version *v0* entwickelt: eine Vorabversion. Diese Version soll dazu dienen von App-Entwicklern, die die Rohdaten verwenden, Rückmeldungen zu bekommen. Nach Einarbeiten dieser Rückmeldungen soll *v1* als erste Produktiversion erscheinen. Mit dieser *v1* wird das Studierendenwerk Ulm Daten für erste Speisebetriebe veröffentlichen.
 
-Weitere Versionen sollen bei Bedarf erscheinen. Entweder weil mit der Zeit Rückmeldungen zu Problemen mit der aktuellen Version gesammelt wurden oder weil sich Ideen für neue Features ergeben haben. Jede und jeder ist herzlich eingeladen [Feedback zu geben](https://github.com/studierendenwerk-ulm/open-food-data/issues).
+Weitere Versionen sollen bei Bedarf entwickelt werden. Entweder weil mit der Zeit Rückmeldungen zu Problemstellen der aktuellen Version gesammelt wurden oder weil sich Ideen für neue Features ergeben haben. Jede und jeder ist herzlich eingeladen [Feedback zu geben](https://github.com/studierendenwerk-ulm/open-food-data/issues).
 
 
 ---
 
-**Studierendenwerk Ulm**
 
-Aron Lanza, Simon Lüke
-
-Siehe [LICENSE](./LICENSE).
+**Studierendenwerk Ulm**, Aron Lanza, Simon Lüke, [Lizenz](./LICENSE).
 
 [![Logo Studierendenwerk Ulm](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://studierendenwerk-ulm.de/)
