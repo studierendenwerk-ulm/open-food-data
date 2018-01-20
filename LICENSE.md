@@ -1,5 +1,6 @@
-OpenFoodData - Spezifikation zur Veröffentlichung von Speiseangeboten in einem strukturierten Datenformat
-by Studierendenwerk Ulm
+**OpenFoodData: Spezifikation zur Veröffentlichung von Speiseangeboten in einem strukturierten Datenformat**
+
+*by Studierendenwerk Ulm*
 
 Diese Spezifikation und die beiligenden Grafiken stehen unter der Creative-Commons-Lizenz Namensnennung 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie http://creativecommons.org/licenses/by/4.0/.
 
