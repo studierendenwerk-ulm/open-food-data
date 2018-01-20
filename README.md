@@ -32,6 +32,6 @@ Weitere Versionen sollen bei Bedarf entwickelt werden. Entweder weil mit der Zei
 ---
 
 
-**Studierendenwerk Ulm**, Aron Lanza, Simon Lüke, [Lizenz](./LICENSE).
+**Studierendenwerk Ulm** | Aron Lanza, Simon Lüke | [Lizenz](./LICENSE)
 
 [![Logo Studierendenwerk Ulm](https://studierendenwerk-ulm.de/wp-content/themes/studentenwerk/assets/img/logo.png)](https://studierendenwerk-ulm.de/)
