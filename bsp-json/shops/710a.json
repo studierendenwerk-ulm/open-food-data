@@ -1,26 +1,27 @@
 {
   "timestamp": "2018-01-25T12:34:41+01:00",
   "specVersion": 0,
-  "shopId": "610",
-  "foodDataUrlPathInfix": "/menu/610/",
-  "foodClassificationUrlPathSuffix": "/shops/610-classification.json",
+  "shopId": "710a",
+  "foodDataUrlPathInfix": "/menu/710a/",
+  "foodClassificationUrlPathSuffix": "/shops/710a-classification.json",
   "priceCategories": {
     "1": "Studierende",
     "2": "Mitarbeiter",
-    "3": "Gäste"
+    "3": "Gäste",
   },
   "website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm",
   "feedback": "mensa@studierendenwerk-ulm.de",
   "specialsPermanent": [
-    "Happy Hour von 13:45 bis 14:00 Uhr."
+    null,
+    null
   ],
-  "importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!",
+  "importantInformation": null,
   "footNotes": [
     "Änderungen vorbehalten.",
-    "Wir verwenden jodiertes Salz.",
+    "Wir verwenden jodiertes Salz",
     "Kontakt: mensa@studierendenwerk-ulm.de"
   ],
-  "inDoorLocation": {
+  "inBuilding": {
     "level": "Niv. 2",
     "roomNumber": "O25"
   },
@@ -28,24 +29,24 @@
     "2017-10-16P2018-02-17": {
       "periodDescription": "Vorlesungszeit",
       "mo": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "di": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "mi": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "do": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "fr": [
-        1130,
-        1330
+        0730,
+        1700
       ],
       "sa": null,
       "so": null
@@ -53,24 +54,24 @@
     "2018-02-18P2018-04-15": {
       "periodDescription": "Vorlesungsfreie Zeit",
       "mo": [
-        1130,
-        1330
+        0730,
+        1800
       ],
       "di": [
-        1130,
-        1330
+        0730,
+        1800
       ],
       "mi": [
-        1130,
-        1330
+        0730,
+        1800
       ],
       "do": [
-        1130,
-        1330
+        0730,
+        1800
       ],
       "fr": [
-        1130,
-        1330
+        0730,
+        1700
       ],
       "sa": null,
       "so": null
@@ -78,24 +79,24 @@
     "2018-04-16P2018-07-21": {
       "periodDescription": "Vorlesungszeit",
       "mo": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "di": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "mi": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "do": [
-        1130,
-        1400
+        0730,
+        1800
       ],
       "fr": [
-        1130,
-        1330
+        0730,
+        1700
       ],
       "sa": null,
       "so": null

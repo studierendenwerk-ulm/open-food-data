@@ -28,12 +28,39 @@
     {
       "shopId": "710a",
       "name": "Cafeteria South Side, Uni Ulm",
-      "TODO"
+      "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+      "city": [
+        "Ulm"
+      ],
+      "universities": [
+        "Uni Ulm",
+        "HS Ulm"
+      ],
+      "coordinates": {
+        "latitude": 48.422145,
+        "longitude": 9.955684,
+        "altitude": 604
+      },
+      "shopMetadataUrlPathSuffix": "/shops/710a.json"
     },
     {
       "shopId": "710b",
       "name": "Cafeteria Nord, Uni Ulm",
-      "TODO"
+      "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+      "city": [
+        "Ulm"
+      ],
+      "universities": [
+        "Uni Ulm",
+        "HS Ulm"
+      ],
+      "coordinates": {
+        "latitude" : 48.422937,  
+        "longitude": 9.953556,
+        "altitude": 604
+      },
+      "shopMetadataUrlPathSuffix": "/shops/710b.json"
     }
   ]
 }
+
