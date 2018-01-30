@@ -29,6 +29,27 @@ Aktuell wird Version *v0* entwickelt: eine Vorabversion. Diese Version soll dazu
 Weitere Versionen sollen bei Bedarf entwickelt werden. Entweder weil mit der Zeit Rückmeldungen zu Problemstellen der aktuellen Version gesammelt wurden oder weil sich Ideen für neue Features ergeben haben. Jede und jeder ist herzlich eingeladen [Feedback zu geben](https://github.com/studierendenwerk-ulm/open-food-data/issues).
 
 
+## Anwendungen
+
+### Apps
+
+... die Daten entspechend dieser Spezifikation verwenden:
+
+ * ...
+ * ...
+ 
+Gerne führen wir auch Ihre App hier auf, melden Sie sich einfach bei uns.
+
+
+### Anbieter/Schnittstellen/Datenquellen
+
+... die auf dieses Spezifikation basieren:
+
+ * Speisepläne des Studierendenwerks Ulm: <demnächst>
+
+
+
+
 ---
 
 
