@@ -5,9 +5,9 @@
   "date": "2018-01-30",
   "closed": null,
   "dailySpecials": [
-    "Kantonesischer Krustenbraten vom Schwein auf Ingwersauce mit Karotten-Sesamgemüse, Erdnussreis"
+    "Aktions Woche zum chinesischen Neujahrsfest"
   ],
-  "mainDishes": [
+  "meals": [
     {
       "mealId": "",
       "currentlyAvailable": true,
@@ -301,9 +301,7 @@
         "3": 0.82
       },
       "nutritionInformation": null
-    }
-  ],
-  "sideDishes": [
+    },
     {
       "mealId": "",
       "currentlyAvailable": true,
@@ -565,9 +563,7 @@
         "3": 1.2
       },
       "nutritionInformation": null
-    }
-  ],
-  "Desserts": [
+    },
     {
       "mealId": "",
       "currentlyAvailable": true,

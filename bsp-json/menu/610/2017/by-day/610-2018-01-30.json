@@ -1,0 +1,523 @@
+Lala{
+{
+  "timestamp": "2018-01-25T15:34:41+01:00",
+  "specVersion": 0,
+  "shopId": "610",
+  "date": "2018-01-30",
+  "closed": null,
+  "dailySpecials": [
+    "Kantonesischer Krustenbraten vom Schwein auf Ingwersauce mit Karotten-Sesamgemüse, Erdnussreis"
+  ],
+  "meals": [
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Gemüsebrühe Esterhazy",
+        "EN": null
+      },
+      "dispositionId": 61,
+      "dispositionDescription": {
+        "DE": "Tagessuppe",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": "26",
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.55,
+        "2": 0.7,
+        "3": 1
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Mediterrane Gemüse-Getreide-Pfanne",
+        "EN": null
+      },
+      "dispositionId": 8,
+      "dispositionDescription": {
+        "DE": "Schneller Teller",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "3",
+        "34w"
+      ],
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 2.6,
+        "2": 3.75,
+        "3": 4.95
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": [
+          "Grießbrei",
+          "Apfelmus",
+          "Zimt und Zucker"
+        ],
+        "EN": null
+      },
+      "dispositionId": 40,
+      "dispositionDescription": {
+        "DE": "Eintopf",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "3",
+        "24",
+        "34w"
+      ],
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 1.7,
+        "2": 2.45,
+        "3": 3.25
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Schweinegeschnetzeltes \"Stroganoff Art\"",
+        "EN": null
+      },
+      "dispositionId": 1,
+      "dispositionDescription": {
+        "DE": "Gut und Günstig",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "2",
+        "3",
+        "9",
+        "S",
+        "23"
+      ],
+      "characterization": "kon",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 1.8,
+        "2": 2.6,
+        "3": 3.45
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Älpler Makkaroni mit Kartoffeln, Bergkäse und Röstzwiebeln",
+        "EN": null
+      },
+      "dispositionId": 5,
+      "dispositionDescription": {
+        "DE": "Prima Klima",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "23",
+        "32W"
+      ],
+      "characterization": "veg",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 2.9,
+        "2": 4.2,
+        "3": 5.55
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": [
+          "1/4 Bauernente",
+          "Orangen-Pfeffersoße"
+        ],
+        "EN": null
+      },
+      "dispositionId": 6,
+      "dispositionDescription": {
+        "DE": "Gourmet",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": "G",
+      "characterization": "kon",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 3.1,
+        "2": 4.5,
+        "3": 5.9
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Kantonesischer Krustenbraten vom Schwein auf Ingwersauce mit Karotten-Sesamgemüse, Erdnussreis",
+        "EN": null
+      },
+      "dispositionId": 14,
+      "dispositionDescription": {
+        "DE": "Aktionsessen",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "S",
+        "22",
+        "28"
+      ],
+      "characterization": "kon",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 3.5,
+        "2": 5.05,
+        "3": 6.65
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": [
+          "Fischbuffet",
+          "Remoulade"
+        ],
+        "EN": null
+      },
+      "dispositionId": 22,
+      "dispositionDescription": {
+        "DE": "Fischbuffet",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "1",
+        "2",
+        "3",
+        "9",
+        "13",
+        "14",
+        "S",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "32",
+        "34",
+        "35",
+        "34W"
+      ],
+      "characterization": "kon",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 1.4,
+        "2": 1.4,
+        "3": 1.4
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": [
+          "Endivien, Radicchio, Chinakohl, Karotten, Mais, Weißkraut",
+          "Getreidesalat mit Gurken und Tomaten",
+          "Karotten-Sellerie-Weißkrautmayonnaisesalat",
+          "Gurken mit Spinat, Hirtenkäse und Oliven",
+          "Tomatensalat",
+          "Eissalat mit Radieschen",
+          "Kartoffelsalat"
+        ],
+        "EN": null
+      },
+      "dispositionId": 68,
+      "dispositionDescription": {
+        "DE": "Salatbuffet",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "8",
+        "14",
+        "S",
+        "24",
+        "26",
+        "27",
+        "30",
+        "34W"
+      ],
+      "characterization": null,
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.82,
+        "2": 0.82,
+        "3": 0.82
+      },
+      "nutritionInformation": null
+    }
+	{
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Bio-Nudeln",
+        "EN": null
+      },
+      "dispositionId": 48,
+      "dispositionDescription": {
+        "DE": "Bio-Nudeln",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": "34W",
+      "characterization": [
+        "veg",
+        "bio"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.65,
+        "2": 0.8,
+        "3": 1.2
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Bio-Reis",
+        "EN": null
+      },
+      "dispositionId": 49,
+      "dispositionDescription": {
+        "DE": "Bio-Reis",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": null,
+      "characterization": [
+        "veg",
+        "bio"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.65,
+        "2": 0.8,
+        "3": 1.2
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Bio-Kartoffeln",
+        "EN": null
+      },
+      "dispositionId": 50,
+      "dispositionDescription": {
+        "DE": "Bio-Kartoffeln",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": "3",
+      "characterization": [
+        "veg",
+        "bio"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.65,
+        "2": 0.8,
+        "3": 1.2
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Blaukraut",
+        "EN": null
+      },
+      "dispositionId": 52,
+      "dispositionDescription": {
+        "DE": "Beilage 2 Tagesgemüse",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": null,
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.75,
+        "2": 1,
+        "3": 1.4
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Kartoffelknödel",
+        "EN": null
+      },
+      "dispositionId": 54,
+      "dispositionDescription": {
+        "DE": "Beilage 2 Knödel",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": null,
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.75,
+        "2": 1,
+        "3": 1.4
+      },
+      "nutritionInformation": null
+    }
+	{
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Mousse Chai-Latte",
+        "EN": null
+      },
+      "dispositionId": 78,
+      "dispositionDescription": {
+        "DE": "Desert Auswahl",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": "24",
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.9,
+        "2": 1.15,
+        "3": 1.65
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Pfirsichkompott",
+        "EN": null
+      },
+      "dispositionId": 77,
+      "dispositionDescription": {
+        "DE": "Desert Kompott",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": null,
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.65,
+        "2": 0.8,
+        "3": 1.2
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": "",
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Holunder-Apfelquark",
+        "EN": null
+      },
+      "dispositionId": 74,
+      "dispositionDescription": {
+        "DE": "Desert Quark",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": "24",
+      "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 0.65,
+        "2": 0.8,
+        "3": 1.2
+      },
+      "nutritionInformation": null
+    }
+  ]
+}
