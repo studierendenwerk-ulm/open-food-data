@@ -3,7 +3,7 @@
   "specVersion": 0,
   "shopId": "610",
   "foodDataUrlPathInfix": "/menu/610/",
-  "foodClassificationUrlPathSuffix": "/shops/610-classification.json",
+  "foodClassificationUrlPathSuffix": "/shops/classification_default.json",
   "priceCategories": {
     "1": "Studierende",
     "2": "Mitarbeiter",
@@ -21,11 +21,19 @@
     "Kontakt: mensa@studierendenwerk-ulm.de"
   ],
   "inDoorLocation": {
-    "level": "Niv. 2",
-    "roomNumber": "O25"
+    "building": "Uni Ost",
+    "level": "Niveau 2",
+    "room": "Mensa",
+    "nextTo": [
+      "Infopoint Studierendenwerk",
+      "Gebäudekreuz O25",
+      "Eingang Süd"
+    ]
   },
-  "openingHours": {
-    "2017-10-16P2018-02-17": {
+  "openingHours": [
+    {
+      "start": "2017-10-16",
+      "end": "2018-02-17",
       "periodDescription": "Vorlesungszeit",
       "mo": [
         1130,
@@ -50,7 +58,9 @@
       "sa": null,
       "so": null
     },
-    "2018-02-18P2018-04-15": {
+    {
+      "start": "2018-02-18",
+      "end": "2018-04-15",
       "periodDescription": "Vorlesungsfreie Zeit",
       "mo": [
         1130,
@@ -75,7 +85,9 @@
       "sa": null,
       "so": null
     },
-    "2018-04-16P2018-07-21": {
+    {
+      "start": "2018-04-16",
+      "end": "2018-07-21",
       "periodDescription": "Vorlesungszeit",
       "mo": [
         1130,
@@ -100,5 +112,5 @@
       "sa": null,
       "so": null
     }
-  }
+  ]
 }

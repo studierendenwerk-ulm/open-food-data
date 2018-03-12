@@ -1,6 +1,6 @@
 {
   "timestamp": "2017-12-20T16:34:41+01:00",
-  "spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0",
+  "spec": "https://github.com/studierendenwerk-ulm/open-food-data/blob/v0/SPEZIFIKATION.md",
   "specVersion": 0,
   "company": "Studierendenwerk Ulm",
   "website": "https://studierendenwerk-ulm.de/",
@@ -55,7 +55,7 @@
         "HS Ulm"
       ],
       "coordinates": {
-        "latitude" : 48.422937,  
+        "latitude": 48.422937,
         "longitude": 9.953556,
         "altitude": 604
       },
@@ -63,4 +63,3 @@
     }
   ]
 }
-

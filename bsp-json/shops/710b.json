@@ -3,7 +3,7 @@
   "specVersion": 0,
   "shopId": "710b",
   "foodDataUrlPathInfix": "/menu/710b/",
-  "foodClassificationUrlPathSuffix": "/shops/710b-classification.json",
+  "foodClassificationUrlPathSuffix": "/shops/classification_default.json",
   "priceCategories": {
     "1": "Studierende",
     "2": "Mitarbeiter",
@@ -11,19 +11,21 @@
   },
   "website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm",
   "feedback": "mensa@studierendenwerk-ulm.de",
-  "specialsPermanent": [
-    null,
-    null
-  ],
+  "specialsPermanent": null,
   "importantInformation": null,
   "footNotes": [
     "Änderungen vorbehalten.",
     "Wir verwenden jodiertes Salz",
     "Kontakt: mensa@studierendenwerk-ulm.de"
   ],
-  "inBuilding": {
-    "level": "Niv. 2",
-    "roomNumber": "M23"
+  "inDoorLocation": {
+    "building": "Uni Ost",
+    "level": "Niveau 2",
+    "room": "M24",
+    "nextTo": [
+      "Eingang Nord",
+      "Studiensekretariat"
+    ]
   },
   "openingHours": {
     "2017-10-16P2018-02-17": {

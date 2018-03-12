@@ -4,15 +4,15 @@
   "shopId": "610",
   "date": "2018-01-30",
   "closed": null,
-  "dailySpecials": [
+  "specials": [
     "Aktions Woche zum chinesischen Neujahrsfest"
   ],
   "meals": [
     {
-      "mealId": "",
+      "mealId": 217128,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Zwiebelsuppe",
+        "DE": "Gemüsebrühe Esterhazy",
         "EN": null
       },
       "dispositionId": 61,
@@ -21,11 +21,11 @@
         "EN": null
       },
       "recommendedOrdering": 2,
-      "ingredients": [
-        "11",
-        "30"
+      "ingredients": "26",
+      "characterization": [
+        "veg",
+        "kon"
       ],
-      "characterization": "veg",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -36,23 +36,55 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217131,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Kartoffelspalten, mit Kräuter-Dip",
+        "DE": "Mediterrane Gemüse-Getreide-Pfanne",
         "EN": null
       },
-      "dispositionId": 40,
+      "dispositionId": 8,
       "dispositionDescription": {
         "DE": "Schneller Teller",
         "EN": null
       },
       "recommendedOrdering": 1,
       "ingredients": [
-        "8",
-        "27"
+        "3",
+        "34w"
       ],
       "characterization": [
+        "veg",
+        "kon"
+      ],
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 2.6,
+        "2": 3.75,
+        "3": 4.95
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": 217137,
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Grießbrei Apfelmus Zimt und Zucker",
+        "EN": null
+      },
+      "dispositionId": 40,
+      "dispositionDescription": {
+        "DE": "Eintopf",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": [
+        "3",
+        "24",
+        "34w"
+      ],
+      "characterization": [
+        "veg",
         "kon"
       ],
       "imgUrlPathSuffix": null,
@@ -65,44 +97,10 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218181,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Schwäbische Hochzeitssuppe, 1 Semmel",
-        "EN": null
-      },
-      "dispositionId": 40,
-      "dispositionDescription": {
-        "DE": "Eintopf",
-        "EN": null
-      },
-      "recommendedOrdering": 1,
-      "ingredients": [
-        "3",
-        "14",
-        "S",
-        "18",
-        "24",
-        "26",
-        "G",
-        "34W",
-        "34R"
-      ],
-      "characterization": "kon",
-      "imgUrlPathSuffix": null,
-      "specialTimeWindow": null,
-      "price": {
-        "1": 1.7,
-        "2": 2.45,
-        "3": 3.25
-      },
-      "nutritionInformation": null
-    },
-    {
-      "mealId": "",
-      "currentlyAvailable": true,
-      "description": {
-        "DE": "Puten-Zwiebel-Krüstchen, Geflügelsoße",
+        "DE": "Schweinegeschnetzeltes \"Stroganoff Art\"",
         "EN": null
       },
       "dispositionId": 1,
@@ -112,25 +110,27 @@
       },
       "recommendedOrdering": 1,
       "ingredients": [
-        "24",
-        "G",
-        "34W"
+        "2",
+        "3",
+        "9",
+        "S",
+        "23"
       ],
       "characterization": "kon",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
-        "1": 2.1,
-        "2": 3.05,
-        "3": 4
+        "1": 1.8,
+        "2": 2.6,
+        "3": 3.45
       },
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217238,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Kartoffelknöpflegratin mit Wirsing, Champignons und Pastinaken",
+        "DE": "Älpler Makkaroni mit Kartoffeln, Bergkäse und Röstzwiebeln",
         "EN": null
       },
       "dispositionId": 5,
@@ -140,41 +140,10 @@
       },
       "recommendedOrdering": 1,
       "ingredients": [
-        "14",
-        "24",
-        "34W"
+        "23",
+        "32W"
       ],
-      "characterization": "kon",
-      "imgUrlPathSuffix": null,
-      "specialTimeWindow": null,
-      "price": {
-        "1": 2.7,
-        "2": 3.9,
-        "3": 5.15
-      },
-      "nutritionInformation": null
-    },
-    {
-      "mealId": "",
-      "currentlyAvailable": true,
-      "description": {
-        "DE": "Krustenbraten vom Oberschwäbischen Landschwein, Dunkelbiersoße",
-        "EN": null
-      },
-      "dispositionId": "11",
-      "dispositionDescription": {
-        "DE": "Gourmet",
-        "EN": null
-      },
-      "recommendedOrdering": 1,
-      "ingredients": [
-        "11",
-        "S",
-        "26",
-        "34W",
-        "34G"
-      ],
-      "characterization": "kon",
+      "characterization": "veg",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -185,10 +154,34 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217258,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Chin. Wokgemüse mit Pilzen, Sojastreifen und Pflaumensauce auf Ramennudeln",
+        "DE": "1/4 Bauernente, Orangen-Pfeffersoße",
+        "EN": null
+      },
+      "dispositionId": 6,
+      "dispositionDescription": {
+        "DE": "Gourmet",
+        "EN": null
+      },
+      "recommendedOrdering": 1,
+      "ingredients": "G",
+      "characterization": "kon",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 3.1,
+        "2": 4.5,
+        "3": 5.9
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": 218185,
+      "currentlyAvailable": true,
+      "description": {
+        "DE": "Kantonesischer Krustenbraten vom Schwein auf Ingwersauce mit Karotten-Sesamgemüse, Erdnussreis",
         "EN": null
       },
       "dispositionId": 14,
@@ -198,13 +191,11 @@
       },
       "recommendedOrdering": 1,
       "ingredients": [
-        "24",
-        "25C"
+        "S",
+        "22",
+        "28"
       ],
-      "characterization": [
-        "kon",
-        "veg"
-      ],
+      "characterization": "kon",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -215,49 +206,52 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 215185,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Snackbuffet",
+        "DE": "Fischbuffet Remoulade",
         "EN": null
       },
-      "dispositionId": 29,
+      "dispositionId": 22,
       "dispositionDescription": {
-        "DE": "Mottobuffet",
+        "DE": "Fischbuffet",
         "EN": null
       },
       "recommendedOrdering": 1,
       "ingredients": [
         "1",
+        "2",
         "3",
-        "8",
+        "9",
+        "13",
         "14",
         "S",
         "23",
         "24",
+        "25",
         "26",
         "27",
+        "28",
+        "32",
         "34",
-        "G",
-        "R",
-        "34W",
-        "34R"
+        "35",
+        "34W"
       ],
       "characterization": "kon",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
-        "1": 0.95,
-        "2": 0.95,
-        "3": 0.95
+        "1": 1.4,
+        "2": 1.4,
+        "3": 1.4
       },
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218298,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Pariser Mischsalat",
+        "DE": "Endivien, Radicchio, Chinakohl, Karotten, Mais, Weißkraut, Getreidesalat mit Gurken und Tomaten, Karotten-Sellerie-Weißkrautmayonnaisesalat, Gurken mit Spinat, Hirtenkäse und Oliven, Tomatensalat, Eissalat mit Radieschen Kartoffelsalat",
         "EN": null
       },
       "dispositionId": 68,
@@ -267,20 +261,18 @@
       },
       "recommendedOrdering": 2,
       "ingredients": [
-        "1",
         "2",
         "3",
         "4",
+        "6",
         "8",
-        "9",
+        "14",
         "S",
         "24",
         "26",
         "27",
         "30",
-        "G",
-        "34W",
-        "25W"
+        "34W"
       ],
       "characterization": null,
       "imgUrlPathSuffix": null,
@@ -293,7 +285,7 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217168,
       "currentlyAvailable": true,
       "description": {
         "DE": "Bio-Nudeln",
@@ -320,7 +312,7 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217189,
       "currentlyAvailable": true,
       "description": {
         "DE": "Bio-Reis",
@@ -347,7 +339,7 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218218,
       "currentlyAvailable": true,
       "description": {
         "DE": "Bio-Kartoffeln",
@@ -374,10 +366,10 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218186,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Prinzessgemüse",
+        "DE": "Blaukraut",
         "EN": null
       },
       "dispositionId": 52,
@@ -401,24 +393,23 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217845,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Kartoffelbällchen",
+        "DE": "Kartoffelknödel",
         "EN": null
       },
-      "dispositionId": 53,
+      "dispositionId": 54,
       "dispositionDescription": {
-        "DE": "Beilage 2 Frittiertes",
+        "DE": "Beilage 2 Knödel",
         "EN": null
       },
       "recommendedOrdering": 2,
-      "ingredients": [
-        "14",
-        "24",
-        "34W"
+      "ingredients": null,
+      "characterization": [
+        "veg",
+        "kon"
       ],
-      "characterization": "kon",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -429,10 +420,10 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 219188,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Krautschupfnudeln",
+        "DE": null,
         "EN": null
       },
       "dispositionId": 55,
@@ -453,10 +444,10 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218456,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Eissalat mit Radieschen",
+        "DE": "Pariser Mischsalt",
         "EN": null
       },
       "dispositionId": 69,
@@ -466,9 +457,11 @@
       },
       "recommendedOrdering": 2,
       "ingredients": [
-        "9",
+        "1",
         "14",
-        "24"
+        "24",
+        "27",
+        "25H"
       ],
       "characterization": "kon",
       "imgUrlPathSuffix": null,
@@ -481,7 +474,7 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218758,
       "currentlyAvailable": true,
       "description": {
         "DE": "Auswahlsalat",
@@ -520,17 +513,17 @@
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
-        "1": 0.8,
-        "2": 1,
-        "3": 1.5
+        "1": 0.65,
+        "2": 0.8,
+        "3": 1.2
       },
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 217689,
       "currentlyAvailable": true,
       "description": {
-        "DE": "(Veg)",
+        "DE": "Mousse Chai-Latte",
         "EN": null
       },
       "dispositionId": 78,
@@ -539,8 +532,11 @@
         "EN": null
       },
       "recommendedOrdering": 2,
-      "ingredients": null,
-      "characterization": "veg",
+      "ingredients": "24",
+      "characterization": [
+        "veg",
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -551,10 +547,10 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218625,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Rhabarberkompott",
+        "DE": "Pfirsichkompott",
         "EN": null
       },
       "dispositionId": 77,
@@ -578,10 +574,10 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 218127,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Heidelbeerquark",
+        "DE": "Holunder-Apfelquark",
         "EN": null
       },
       "dispositionId": 74,
@@ -605,19 +601,19 @@
       "nutritionInformation": null
     },
     {
-      "mealId": "",
+      "mealId": 219228,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Karamellpudding",
+        "DE": null,
         "EN": null
       },
-      "dispositionId": 75,
+      "dispositionId": 76,
       "dispositionDescription": {
-        "DE": "Desert Pudding",
+        "DE": "Desert Götterspeise",
         "EN": null
       },
       "recommendedOrdering": 2,
-      "ingredients": "24",
+      "ingredients": null,
       "characterization": "veg",
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
@@ -625,6 +621,30 @@
         "1": 0.65,
         "2": 0.8,
         "3": 1.2
+      },
+      "nutritionInformation": null
+    },
+    {
+      "mealId": 218185,
+      "currentlyAvailable": true,
+      "description": {
+        "DE": null,
+        "EN": null
+      },
+      "dispositionId": 79,
+      "dispositionDescription": {
+        "DE": "Desert De Luxe",
+        "EN": null
+      },
+      "recommendedOrdering": 2,
+      "ingredients": null,
+      "characterization": "veg",
+      "imgUrlPathSuffix": null,
+      "specialTimeWindow": null,
+      "price": {
+        "1": 1.1,
+        "2": 1.45,
+        "3": 2.05
       },
       "nutritionInformation": null
     }
