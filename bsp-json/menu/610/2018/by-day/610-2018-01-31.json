@@ -120,7 +120,9 @@
         "G",
         "34W"
       ],
-      "characterization": "kon",
+      "characterization": [
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -148,7 +150,9 @@
         "24",
         "34W"
       ],
-      "characterization": "kon",
+      "characterization": [
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -178,7 +182,9 @@
         "34W",
         "34G"
       ],
-      "characterization": "kon",
+      "characterization": [
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -247,7 +253,9 @@
         "34W",
         "34R"
       ],
-      "characterization": "kon",
+      "characterization": [
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -422,7 +430,9 @@
         "24",
         "34W"
       ],
-      "characterization": "kon",
+      "characterization": [
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -446,7 +456,9 @@
       },
       "recommendedOrdering": 2,
       "ingredients": null,
-      "characterization": "veg",
+      "characterization": [
+        "veg"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -474,7 +486,9 @@
         "14",
         "24"
       ],
-      "characterization": "kon",
+      "characterization": [
+        "kon"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -544,7 +558,9 @@
       },
       "recommendedOrdering": 2,
       "ingredients": null,
-      "characterization": "veg",
+      "characterization": [
+        "veg"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
@@ -622,7 +638,9 @@
       },
       "recommendedOrdering": 2,
       "ingredients": "24",
-      "characterization": "veg",
+      "characterization": [
+        "veg"
+      ],
       "imgUrlPathSuffix": null,
       "specialTimeWindow": null,
       "price": {
