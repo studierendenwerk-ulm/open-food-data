@@ -1,132 +1,42 @@
 {
-  "timestamp": "2018-01-25T15:34:41+01:00",
+  "timestamp": "2017-12-20T16:34:41+01:00",
   "specVersion": 0,
   "shopId": "610",
-  "date": "2018-01-30",
+  "date": "2017-12-11",
   "closed": null,
-  "dailySpecials": [
-    "Schweinebraten Guangzhou"
-  ],
   "meals": [
     {
-      "mealId": "",
+      "mealId": 61,
       "currentlyAvailable": true,
       "description": {
-        "DE": "Gemüsebrühe Esterhazy",
+        "DE": "Brokkolicremsuppe",
         "EN": null
       },
       "dispositionId": 61,
       "dispositionDescription": {
-        "DE": "Tagessuppe",
+        "DE": "Suppe",
         "EN": null
       },
       "recommendedOrdering": 2,
-      "ingredients": "26",
-      "characterization": [
-        "veg",
-        "kon"
-      ],
-      "imgUrlPathSuffix": null,
-      "specialTimeWindow": null,
-      "price": {
-        "1": 0.55,
-        "2": 0.7,
-        "3": 1
-      },
-      "nutritionInformation": null
-    },
-    {
-      "mealId": "",
-      "currentlyAvailable": true,
-      "description": {
-        "DE": "Mediterrane Gemüse-Getreide-Pfanne",
-        "EN": null
-      },
-      "dispositionId": 8,
-      "dispositionDescription": {
-        "DE": "Schneller Teller",
-        "EN": null
-      },
-      "recommendedOrdering": 1,
       "ingredients": [
-        "3",
-        "34w"
+        "23",
+        "26",
+        "34W"
       ],
       "characterization": [
-        "veg",
-        "kon"
+        "van",
+        "bio"
       ],
       "imgUrlPathSuffix": null,
-      "specialTimeWindow": null,
+      "specialTimeWindow": [
+        1130,
+        1345
+      ],
       "price": {
-        "1": 2.6,
-        "2": 3.75,
-        "3": 4.95
-      },
-      "nutritionInformation": null
-    },
-    {
-      "mealId": "",
-      "currentlyAvailable": true,
-      "description": {
-        "DE": [
-          "Grießbrei",
-          "Apfelmus",
-          "Zimt und Zucker"
-        ],
-        "EN": null
-      },
-      "dispositionId": 40,
-      "dispositionDescription": {
-        "DE": "Eintopf",
-        "EN": null
-      },
-      "recommendedOrdering": 1,
-      "ingredients": [
-        "3",
-        "24",
-        "34w"
-      ],
-      "characterization": [
-        "veg",
-        "kon"
-      ],
-      "imgUrlPathSuffix": null,
-      "specialTimeWindow": null,
-      "price": {
-        "1": 1.7,
-        "2": 2.45,
-        "3": 3.25
-      },
-      "nutritionInformation": null
-    },
-    {
-      "mealId": "",
-      "currentlyAvailable": true,
-      "description": {
-        "DE": "Schweinegeschnetzeltes \"Stroganoff Art\"",
-        "EN": null
-      },
-      "dispositionId": 8,
-      "dispositionDescription": {
-        "DE": "Schneller Teller",
-        "EN": null
-      },
-      "recommendedOrdering": 1,
-      "ingredients": [
-        "3",
-        "34w"
-      ],
-      "characterization": [
-        "veg",
-        "kon"
-      ],
-      "imgUrlPathSuffix": null,
-      "specialTimeWindow": null,
-      "price": {
-        "1": 2.6,
-        "2": 3.75,
-        "3": 4.95
+        "1": 1.8,
+        "2": 2.25,
+        "3": 3.2,
+        "4": 5.6
       },
       "nutritionInformation": null
     }
