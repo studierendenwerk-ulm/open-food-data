@@ -7,7 +7,7 @@
   "priceCategories": {
     "1": "Studierende",
     "2": "Mitarbeiter",
-    "3": "Gäste",
+    "3": "Gäste"
   },
   "website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm",
   "feedback": "mensa@studierendenwerk-ulm.de",
@@ -25,85 +25,91 @@
     "nextTo": [
       "Infopoint Studierendenwerk",
       "Gebäudekreuz O25",
-	  "Mensa",
+      "Mensa",
       "Eingang Süd"
     ]
   },
-  "openingHours": {
-    "2017-10-16P2018-02-17": {
+  "openingHours": [
+    {
+      "start": "2017-10-16",
+      "end": "2018-02-17",
       "periodDescription": "Vorlesungszeit",
       "mo": [
-        0730,
+        730,
         1800
       ],
       "di": [
-        0730,
+        730,
         1800
       ],
       "mi": [
-        0730,
+        730,
         1800
       ],
       "do": [
-        0730,
+        730,
         1800
       ],
       "fr": [
-        0730,
+        730,
         1700
       ],
       "sa": null,
       "so": null
     },
-    "2018-02-18P2018-04-15": {
+    {
+      "start": "2018-02-18",
+      "end": "2018-04-15",
       "periodDescription": "Vorlesungsfreie Zeit",
       "mo": [
-        0730,
+        730,
         1800
       ],
       "di": [
-        0730,
+        730,
         1800
       ],
       "mi": [
-        0730,
+        730,
         1800
       ],
       "do": [
-        0730,
+        730,
         1800
       ],
       "fr": [
-        0730,
+        730,
         1700
       ],
       "sa": null,
       "so": null
     },
-    "2018-04-16P2018-07-21": {
+    {
+      "start": "2018-04-16",
+      "end": "2018-07-21",
       "periodDescription": "Vorlesungszeit",
       "mo": [
-        0730,
+        730,
         1800
       ],
       "di": [
-        0730,
+        730,
         1800
       ],
       "mi": [
-        0730,
+        730,
         1800
       ],
       "do": [
-        0730,
+        730,
         1800
       ],
       "fr": [
-        0730,
+        730,
         1700
       ],
       "sa": null,
       "so": null
     }
-  }
+  ]
 }
