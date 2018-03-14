@@ -7,7 +7,7 @@
   "priceCategories": {
     "1": "Studierende",
     "2": "Mitarbeiter",
-    "3": "Gäste",
+    "3": "Gäste"
   },
   "website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm",
   "feedback": "mensa@studierendenwerk-ulm.de",
@@ -27,81 +27,87 @@
       "Studiensekretariat"
     ]
   },
-  "openingHours": {
-    "2017-10-16P2018-02-17": {
+  "openingHours": [
+    {
+      "start": "2017-10-16",
+      "end": "2018-02-17",
       "periodDescription": "Vorlesungszeit",
       "mo": [
-        0845,
+        845,
         1530
       ],
       "di": [
-        0845,
+        845,
         1530
       ],
       "mi": [
-        0845,
+        845,
         1530
       ],
       "do": [
-        0845,
+        845,
         1530
       ],
       "fr": [
-        0845,
+        845,
         1400
       ],
       "sa": null,
       "so": null
     },
-    "2018-02-18P2018-04-15": {
+    {
+      "start": "2018-02-18",
+      "end": "2018-04-15",
       "periodDescription": "Vorlesungsfreie Zeit",
       "mo": [
-        0845,
+        845,
         1400
       ],
       "di": [
-        0845,
+        845,
         1400
       ],
       "mi": [
-        0845,
+        845,
         1400
       ],
       "do": [
-        0845,
+        845,
         1400
       ],
       "fr": [
-        0845,
+        845,
         1400
       ],
       "sa": null,
       "so": null
     },
-    "2018-04-16P2018-07-21": {
+    {
+      "start": "2018-04-16",
+      "end": "2018-07-21",
       "periodDescription": "Vorlesungszeit",
       "mo": [
-        0845,
+        845,
         1530
       ],
       "di": [
-        0845,
+        845,
         1530
       ],
       "mi": [
-        0845,
+        845,
         1530
       ],
       "do": [
-        0845,
+        845,
         1530
       ],
       "fr": [
-        0845,
+        845,
         1400
       ],
       "sa": null,
       "so": null
     }
-  }
+  ]
 }
