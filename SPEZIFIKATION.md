@@ -25,6 +25,7 @@
 | "specialTimeWindow" |   |   |   |
 | "price"  |   |   |   |
 | "nutritionInformation"  |   |   |   |
+
 [Beispiel JSON Mensa ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
 ```json
 {
@@ -72,3 +73,122 @@
   ]
 }
 ```
+
+````json
+{
+  "timestamp": "2018-01-25T12:34:41+01:00",
+  "specVersion": 0,
+  "shopId": "610",
+  "foodDataUrlPathInfix": "/menu/610/",
+  "foodClassificationUrlPathSuffix": "/shops/classification_default.json",
+  "priceCategories": {
+    "1": "Studierende",
+    "2": "Mitarbeiter",
+    "3": "Gäste"
+  },
+  "website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm",
+  "feedback": "mensa@studierendenwerk-ulm.de",
+  "specialsPermanent": [
+    "Happy Hour von 13:45 bis 14:00 Uhr."
+  ],
+  "importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!",
+  "footNotes": [
+    "Änderungen vorbehalten.",
+    "Wir verwenden jodiertes Salz.",
+    "Kontakt: mensa@studierendenwerk-ulm.de"
+  ],
+  "inDoorLocation": {
+    "building": "Uni Ost",
+    "level": "Niveau 2",
+    "room": "Mensa",
+    "nextTo": [
+      "Infopoint Studierendenwerk",
+      "Gebäudekreuz O25",
+      "Eingang Süd"
+    ]
+  },
+  "openingHours": [
+    {
+      "start": "2017-10-16",
+      "end": "2018-02-17",
+      "periodDescription": "Vorlesungszeit",
+      "mo": [
+        1130,
+        1400
+      ],
+      "di": [
+        1130,
+        1400
+      ],
+      "mi": [
+        1130,
+        1400
+      ],
+      "do": [
+        1130,
+        1400
+      ],
+      "fr": [
+        1130,
+        1330
+      ],
+      "sa": null,
+      "so": null
+    },
+    {
+      "start": "2018-02-18",
+      "end": "2018-04-15",
+      "periodDescription": "Vorlesungsfreie Zeit",
+      "mo": [
+        1130,
+        1330
+      ],
+      "di": [
+        1130,
+        1330
+      ],
+      "mi": [
+        1130,
+        1330
+      ],
+      "do": [
+        1130,
+        1330
+      ],
+      "fr": [
+        1130,
+        1330
+      ],
+      "sa": null,
+      "so": null
+    },
+    {
+      "start": "2018-04-16",
+      "end": "2018-07-21",
+      "periodDescription": "Vorlesungszeit",
+      "mo": [
+        1130,
+        1400
+      ],
+      "di": [
+        1130,
+        1400
+      ],
+      "mi": [
+        1130,
+        1400
+      ],
+      "do": [
+        1130,
+        1400
+      ],
+      "fr": [
+        1130,
+        1330
+      ],
+      "sa": null,
+      "so": null
+    }
+  ]
+}
+````
