@@ -3,16 +3,18 @@
 
 
 ## [/bsp-json/menu/ ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
-
-| Name | JSON Value | tl1 DB | Beispiel | Hinweis | 
+G= garantierte Werte
+O= optionale Werte
+| Name | JSON Value | tl1 DB | G/O | Beispiel | Hinweis | 
 | ---- | ---------- | ------ | -------- |---------|  
-| "timestamp"| string | NA |"timestamp": "2017-12-20T16:34:41+01:00"| hier wird die allgemeine Zeitangabe verwendet|
+| "timestamp"| string | NA |"timestamp": "2017-12-20T16:34:41+01:00"| Zeitpunkt wann diese JSON genneriert wurde|
 | "specVersion" | number | NA | "specVersion": 0 | hier wird die Version der JSON dargestellt|
 | "shopId" | string | AUSGABENSTELLEID | "shopId": "610" | 
 | "date" | string | PRODUKTIONSDATUM | "date": "2017-12-11"|
-| "closed" |    ?     | unknown |  "closed": null |
-| "meals" | array | ? | "meals": [{},{},...,{}] | enthaelt objekte von meals
+| "closed" |    ?     |  |  "closed": null |
+| "meals" | array | ? | "meals": [{},{},...,{}] | array aus objekten
 
+###einzelne Objekte aus "meals"
 | Name | JSON Value | tl1 DB | Beispiel | Hinweis | 
 | ---- | ---------- | ------ | -------- |---------| 
 | "mealId" | number | DISPOART_ID | "mealId": 61 | 
