@@ -6,7 +6,7 @@
 G= garantierte Werte
 O= optionale Werte
 | Name | JSON Value | tl1 DB | G/O | Beispiel | Hinweis | 
-| ---- | ---------- | ------ | -------- |---------|  
+| ---- | ---------- | ------ | -------- |---------|-----| 
 | "timestamp"| string | NA |"timestamp": "2017-12-20T16:34:41+01:00"| Zeitpunkt wann diese JSON genneriert wurde|
 | "specVersion" | number | NA | "specVersion": 0 | hier wird die Version der JSON dargestellt|
 | "shopId" | string | AUSGABENSTELLEID | "shopId": "610" | 
