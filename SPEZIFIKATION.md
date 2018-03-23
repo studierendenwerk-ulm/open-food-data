@@ -95,7 +95,32 @@ ___
  }
 ```
 ___
+## [/bsp-json/shops/ ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
+|G = garantierte Werte | O = optionale Werte|
+|:-:|:-:|
 
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
+|`"specVersion"`|*number*|NA|G|`"specVersion": 0`|hier wird die Version der JSON dargestellt|
+|`"shopId"`|*string*|AUSGABENSTELLEID|G|`"shopId": "610"`|-|
+|`"foodDataUrlPathInfix"`|*-*|-|-|`"foodDataUrlPathInfix": "/menu/610/"`|-|
+|`"foodClassificationUrlPathSuffix"`|*-*|-|-|`"foodClassificationUrlPathSuffix": "/shops/classification_default.json"`|-|
+|`"priceCategories"`|*-*|-|-|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|-|
+|`"website"`|*-*|-|-|`"website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm"`|-|
+|`"feedback"`|*-*|-|-|`"feedback": "mensa@studierendenwerk-ulm.de"`|-|
+|`"specialsPermanent"`|*-*|-|-|`"specialsPermanent": ["Happy Hour von 13:45 bis 14:00 Uhr."]`|-|
+|`"importantInformation"`|*-*|-|-|`"importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!"`|-|
+|`"footNotes"`|*-*|-|-|` "footNotes": ["Änderungen vorbehalten.","Wir verwenden jodiertes Salz.","Kontakt: mensa@studierendenwerk-ulm.de"]`|-|
+|`"inDoorLocation"`|*-*|-|-|`"inDoorLocation": {"building": "Uni Ost","level": "Niveau 2","room": "Mensa","nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]}`|-|
+|`"openingHours"`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+
+[Beispiel JSON SHOPS ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/610.json)
 
 ````json
 {
@@ -215,3 +240,30 @@ ___
   ]
 }
 ````
+
+___
+## [/bsp-json/shops/classification_default.json](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
+|G = garantierte Werte | O = optionale Werte|
+|:-:|:-:|
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+|`-`|*-*|-|-|`-`|-|
+[Beispiel JSON classification_defoult](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/classification_default.json)
