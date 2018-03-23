@@ -1,8 +1,9 @@
+___
 # Spezifikation der JSON Daten 
 ___
 
 ## [/bsp-json/menu/ ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
----
+
 |G = garantierte Werte | O = optionale Werte|
 |:-:|:-:|
 
@@ -13,35 +14,7 @@ ___
 |`"shopId"`|*string*|AUSGABENSTELLEID|G|`"shopId": "610"`|-| 
 |`"date"`|*string*|PRODUKTIONSDATUM|G|`"date": "2017-12-11"`|-|
 |`"closed"`|*boolean/array*|NA|O|`"closed": null`|-|
-|`"meals"`|*array*|NA|G |`"meals": [{},{},...,{}]`|Array aus Objekten|
-
-```json
-{
-  "timestamp": "2017-12-20T16:34:41+01:00",
-  "specVersion": 0,
-  "shopId": "610",
-  "date": "2017-12-11",
-  "closed": null,
-  "meals": [{},{},...,{}]
-  }
- ````
----
-### einzelne Objekte aus "meals"
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
-|-|-|-|-|-|-|
-|"mealId"|number|DISPOART_ID|G|"mealId": 61|| 
-|"currentlyAvailable"|boolean|NA|O|"currentlyAvailable": true||
-|"description"|object|BEZEICHNUNG |||
-|"dispositionId"|number||
-|"dispositionDescription"||||
-|"recommendedOrdering"||||
-|"ingredients" ||||
-|"characterization"||||
-|"imgUrlPathSuffix" ||||
-|"specialTimeWindow" ||||
-|"price"||||
-|"nutritionInformation"||||
-|-|-|-|-|-|-|
+|`"meals"`|*array*|NA|G |`"meals": [{},{},..,{}]`|Array aus Objekten|
 
 [Beispiel JSON Mensa ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
 ```json
@@ -51,7 +24,38 @@ ___
   "shopId": "610",
   "date": "2017-12-11",
   "closed": null,
-  "meals": [
+  "meals": [{},{},..,{}]
+  }
+ ````
+___
+
+## [einzelne Objekte aus "meals"](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
+
+|G = garantierte Werte | O = optionale Werte|
+|:-:|:-:|
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`"mealId"`|*number*|DISPOART_ID|G|`"mealId": 61`|-| 
+|`"currentlyAvailable"`|*boolean*|NA|O|`"currentlyAvailable": true`|-|
+|`"description"`|*object*|BEZEICHNUNG |G|`"description": {"DE": "Brokkolicremsuppe","EN": null }`|-|
+|`"dispositionId"`|*number*|DISPOART_ID|G|`"dispositionId": 61`|-|
+|`"dispositionDescription"`|*object*|SPARTENBEZEICHNUNG|G|`"description": {"DE":"Suppe","EN": null }`|-|
+|`"recommendedOrdering"`|*number*|ZEILENNUMMER (ZEILENUMMER)?|G|`"recommendedOrdering": 2`|-|
+|`"ingredients"`|*array*|ZUSATZKENNZEICHNUNG|G|`"ingredients": ["23","26","34W"]`|-|
+|`"characterization"`|*array*|MENUEKENNZEICHNUNG|G|`"characterization": ["van","bio"]`|-|
+|`"imgUrlPathSuffix"`|*string/null*|NA|G|`"imgUrlPathSuffix": null`|-|
+|`"specialTimeWindow"`|*array*|?|O|`"specialTimeWindow": [1130,1345]`|-|
+|`"price"`|*object*|PREIS1 bis ...5|G|`"price":{"1":1.8,"2":2.25,"3":3.2,"4":5.6}`|-|
+|`"nutritionInformation"`|*array/null*|(NÄHRWERTE)?|O|`"nutritionInformation":null`|-|
+
+
+
+
+[Beispiel JSON Mensa ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
+```json
+{
+    "meals": [
     {
       "mealId": 61,
       "currentlyAvailable": true,
@@ -88,8 +92,10 @@ ___
       "nutritionInformation": null
     }
   ]
-}
+ }
 ```
+___
+
 
 ````json
 {
