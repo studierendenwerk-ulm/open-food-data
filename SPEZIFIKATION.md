@@ -14,7 +14,7 @@ ___
 |`"shopId"`|*string*|AUSGABENSTELLEID|G|`"shopId": "610"`|-| 
 |`"date"`|*string*|PRODUKTIONSDATUM|G|`"date": "2017-12-11"`|-|
 |`"closed"`|*boolean/array*|NA|O|`"closed": null`|-|
-|`"meals"`|*array*|NA|G |`"meals": [{},{},..,{}]`|Array aus Objekten|
+|`"meals"`|*array*|NA|G |`"meals": [{},{},...,{}]`|Array aus Objekten|
 
 [Beispiel JSON Mensa ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
 ```json
@@ -24,7 +24,7 @@ ___
   "shopId": "610",
   "date": "2017-12-11",
   "closed": null,
-  "meals": [{},{},..,{}]
+  "meals": [{},{},...,{}]
   }
  ````
 ___
