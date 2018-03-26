@@ -284,7 +284,7 @@ ___
 |"characterization"|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"veg"`|*-*|-|-|`"veg": {"description": {}}`|-|
-|`"description"`|*-*|-|-|`"description": {"DE": "vegetarisch",}`|-|
+|`"description"`|*-*|-|-|`"description": {"DE": "vegetarisch","EN": "vegetarian"}`|-|
 |`"DE"`|*-*|-|-|`"DE": "vegetarisch"`|-|
 |`"EN"`|*-*|-|-|`"EN": "vegetarian"`|-|
 
