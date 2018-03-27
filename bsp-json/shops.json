@@ -28,12 +28,12 @@
     {
       "shopId": "710a",
       "name": "Cafeteria South Side, Uni Ulm",
-      "TODO"
+      "TODO" : "TODO"
     },
     {
       "shopId": "710b",
       "name": "Cafeteria Nord, Uni Ulm",
-      "TODO"
+      "TODO" : "TODO"
     }
-  ]
+]
 }
