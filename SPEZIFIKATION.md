@@ -110,9 +110,9 @@ ___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"priceCategories"`|*object*|-|-|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|-|
-|`"1"`|*-*|-|-|`"1": "Studierende"`|-|
-|`"2"`|*-*|-|-|`"2": "Mitarbeiter"`|-|
-|`"3"`|*-*|-|-|`"3": "Gäste"`|-|
+|`"1"`|*string*|-|-|`"1": "Studierende"`|-|
+|`"2"`|*string*|-|-|`"2": "Mitarbeiter"`|-|
+|`"3"`|*string*|-|-|`"3": "Gäste"`|-|
 
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
@@ -130,10 +130,10 @@ ___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"inDoorLocation"`|*object*|-|-|`"inDoorLocation": {"building": "Uni Ost","level": "Niveau 2","room": "Mensa","nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]}`|-|
-|`"building"`|*-*|-|-|`"building": "Uni Ost"`|-|
-|`"level"`|*-*|-|-|`"level": "Niveau 2"`|-|
-|`"room"`|*-*|-|-|`"room": "Mensa"`|-|
-|`"nextTo"`|*-*|-|-|`"nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]`|-|
+|`"building"`|*string*|-|-|`"building": "Uni Ost"`|-|
+|`"level"`|*string*|-|-|`"level": "Niveau 2"`|-|
+|`"room"`|*string*|-|-|`"room": "Mensa"`|-|
+|`"nextTo"`|*array*|-|-|`"nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]`|-|
 
 
 
@@ -141,10 +141,10 @@ ___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"openingHours"`|*array*|-|-|`"openingHours": [{},{},...,{}]`|-|
-|`"start"`|*-*|-|-|`"start": "2017-10-16"`|-|
-|`"end"`|*-*|-|-|`"end": "2018-02-17"`|-|
-|`"periodDescription"`|*-*|-|-|`"periodDescription": "Vorlesungszeit"`|-|
-|`"mo"/"di"/...`|*-*|-|-|`"mo": [1130,1400]`|-|
+|`"start"`|*string*|-|-|`"start": "2017-10-16"`|-|
+|`"end"`|*string*|-|-|`"end": "2018-02-17"`|-|
+|`"periodDescription"`|*string*|-|-|`"periodDescription": "Vorlesungszeit"`|-|
+|`"mo"/"di"/...`|*string*|-|-|`"mo": [1130,1400]`|-|
 
 
 [Beispiel JSON SHOPS ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/610.json)
@@ -275,12 +275,12 @@ ___
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"characterization"`|*-*|-|-|`"characterization": {"veg": {"description": {"DE": "vegetarisch","EN": "vegetarian"},"recommendedIcon": "img/icons/meatless"}`|-|
-|`"veg"`|*-*|-|-|`"veg": {"description": {...}}`|-|
-|`"description"`|*-*|-|-|`"description": {"DE": "vegetarisch","EN": "vegetarian"}`|-|
-|`"DE"`|*-*|-|-|`"DE": "vegetarisch"`|-|
-|`"EN"`|*-*|-|-|`"EN": "vegetarian"`|-|
-|` "recommendedIcon"`|*-*|-|-|`"recommendedIcon": "img/icons/meatless"`|-|
+|`"characterization"`|*object*|-|-|`"characterization": {"veg": {"description": {"DE": "vegetarisch","EN": "vegetarian"},"recommendedIcon": "img/icons/meatless"}`|-|
+|`"veg"`|*object*|-|-|`"veg": {"description": {...}}`|-|
+|`"description"`|*object*|-|-|`"description": {"DE": "vegetarisch","EN": "vegetarian"}`|-|
+|`"DE"`|*string*|-|-|`"DE": "vegetarisch"`|-|
+|`"EN"`|*string*|-|-|`"EN": "vegetarian"`|-|
+|` "recommendedIcon"`|*string*|-|-|`"recommendedIcon": "img/icons/meatless"`|-|
 
 [Beispiel JSON classification_defoult](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/classification_default.json)
 
@@ -300,26 +300,26 @@ ___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
-|`"spec"`|*number*|NA|G|`"spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0"`|-|
-|`"specVersion"`|*-*|-|-|`"specVersion": 0`|-|
-|`"company"`|*-*|-|-|`"company": "Studierendenwerk Ulm"`|-|
-|`"website"`|*-*|-|-|`"website": "https://studierendenwerk-ulm.de/"`|-|
-|`"address"`|*-*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
-|`"disclaimerData"`|*-*|-|-|`"TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL"`|-|
-|`"shops"`|*-*|-|-|`"shops" : [{},...,{}]`|-|
+|`"spec"`|*string*|NA|G|`"spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0"`|-|
+|`"specVersion"`|*number*|-|-|`"specVersion": 0`|-|
+|`"company"`|*string*|-|-|`"company": "Studierendenwerk Ulm"`|-|
+|`"website"`|*string*|-|-|`"website": "https://studierendenwerk-ulm.de/"`|-|
+|`"address"`|*string*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
+|`"disclaimerData"`|*string*|-|-|`"TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL"`|-|
+|`"shops"`|*array*|-|-|`"shops" : [{},...,{}]`|-|
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"shopId"`|*-*|-|-|`"shopId": "610"`|-|
-|`"name"`|*-*|-|-|`"name": "Mensa, Uni Ulm"`|-|
-|`"address"`|*-*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
-|`"city"`|*-*|-|-|`"city": ["Ulm"]`|-|
-|`"universities"`|*-*|-|-|`"universities": ["Uni Ulm","HS Ulm"]`|-|
-|`"coordinates"`|*-*|-|-|`"coordinates": {"latitude": 48.422065,"longitude": 9.955517,"altitude": 604}`|-|
-|`"latitude"`|*-*|-|-|`"latitude": 48.422065`|-|
-|`"longitude"`|*-*|-|-|`"longitude": 9.955517`|-|
-|`altitude`|*-*|-|-|`"altitude": 604`|-|
-|`"shopMetadataUrlPathSuffix"`|*-*|-|-|`"shopMetadataUrlPathSuffix": "/shops/610.json"`|-|
+|`"shopId"`|*string*|-|-|`"shopId": "610"`|-|
+|`"name"`|*string*|-|-|`"name": "Mensa, Uni Ulm"`|-|
+|`"address"`|*string*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
+|`"city"`|*array*|-|-|`"city": ["Ulm"]`|-|
+|`"universities"`|*array*|-|-|`"universities": ["Uni Ulm","HS Ulm"]`|-|
+|`"coordinates"`|*object*|-|-|`"coordinates": {"latitude": 48.422065,"longitude": 9.955517,"altitude": 604}`|-|
+|`"latitude"`|*string*|-|-|`"latitude": 48.422065`|-|
+|`"longitude"`|*string*|-|-|`"longitude": 9.955517`|-|
+|`altitude`|*string*|-|-|`"altitude": 604`|-|
+|`"shopMetadataUrlPathSuffix"`|*string*|-|-|`"shopMetadataUrlPathSuffix": "/shops/610.json"`|-|
 
 
 ```json
