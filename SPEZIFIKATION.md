@@ -125,20 +125,16 @@ ___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"footNotes"`|*array* ?|-|-|` "footNotes": ["Änderungen vorbehalten.","Wir verwenden jodiertes Salz.","Kontakt: mensa@studierendenwerk-ulm.de"]`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
+
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"inDoorLocation"`|*object*|-|-|`"inDoorLocation": {"building": "Uni Ost","level": "Niveau 2","room": "Mensa","nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]}`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
+|`"building"`|*-*|-|-|`"building": "Uni Ost"`|-|
+|`"level"`|*-*|-|-|`"level": "Niveau 2"`|-|
+|`"room"`|*-*|-|-|`"room": "Mensa"`|-|
+|`"nextTo"`|*-*|-|-|`"nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]`|-|
+
 
 
 
@@ -148,8 +144,8 @@ ___
 |`"start"`|*-*|-|-|`"start": "2017-10-16"`|-|
 |`"end"`|*-*|-|-|`"end": "2018-02-17"`|-|
 |`"periodDescription"`|*-*|-|-|`"periodDescription": "Vorlesungszeit"`|-|
-|`"mo"`|*-*|-|-|`"mo": [1130,1400]`|-|
-|`-`|*-*|-|-|`-`|-|
+|`"mo"/"di"/...`|*-*|-|-|`"mo": [1130,1400]`|-|
+
 
 [Beispiel JSON SHOPS ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/610.json)
 
@@ -280,30 +276,12 @@ ___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"characterization"`|*-*|-|-|`"characterization": {"veg": {"description": {"DE": "vegetarisch","EN": "vegetarian"},"recommendedIcon": "img/icons/meatless"}`|-|
-
-|"characterization"|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|`"veg"`|*-*|-|-|`"veg": {"description": {}}`|-|
+|`"veg"`|*-*|-|-|`"veg": {"description": {...}}`|-|
 |`"description"`|*-*|-|-|`"description": {"DE": "vegetarisch","EN": "vegetarian"}`|-|
 |`"DE"`|*-*|-|-|`"DE": "vegetarisch"`|-|
 |`"EN"`|*-*|-|-|`"EN": "vegetarian"`|-|
+|` "recommendedIcon"`|*-*|-|-|`"recommendedIcon": "img/icons/meatless"`|-|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
-|`-`|*-*|-|-|`-`|-|
 [Beispiel JSON classification_defoult](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/classification_default.json)
 
 ```json
@@ -316,337 +294,76 @@ ___
       },
       "recommendedIcon": "img/icons/meatless"
     },
-    "kon": {
-      "description": {
-        "DE": "konventionell",
-        "EN": "conventional"
-      },
-      "iconUrlPathSufix": null
-    },
-    "bio": {
-      "description": {
-        "DE": "bio",
-        "EN": "bio"
-      },
-      "recommendedIcon": null
-    },
-    "van": {
-      "description": {
-        "DE": "vegan",
-        "EN": "vegan"
-      },
-      "recommendedIcon": "/img/icons/vegan"
-    }
-  },
-  "ingredients": {
-    "1": {
-      "description": {
-        "DE": "Farbstoff",
-        "EN": "colouring"
-      },
-      "recommendedIcon": null
-    },
-    "2": {
-      "description": {
-        "DE": "Konservierungsstoff",
-        "EN": "preservatives"
-      },
-      "recommendedIcon": null
-    },
-    "3": {
-      "description": {
-        "DE": "Antioxidationsmittel",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "4": {
-      "description": {
-        "DE": "Geschmacksverstärker",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "5": {
-      "description": {
-        "DE": "geschwefelt",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "6": {
-      "description": {
-        "DE": "geschwärzt",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "7": {
-      "description": {
-        "DE": "gewachst",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "8": {
-      "description": {
-        "DE": "Phosphat",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "9": {
-      "description": {
-        "DE": "Süßungsmittel",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "10": {
-      "description": {
-        "DE": "Phenylalaninquelle",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "11": {
-      "description": {
-        "DE": "Alkohol",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "13": {
-      "description": {
-        "DE": "Krebstiere",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "14": {
-      "description": {
-        "DE": "Eier",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "18": {
-      "description": {
-        "DE": "Gelatine vom Schwein",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/pork"
-    },
-    "22": {
-      "description": {
-        "DE": "Erdnüsse",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "23": {
-      "description": {
-        "DE": "Soja",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "24": {
-      "description": {
-        "DE": "Milch/Milchprodukte (mit Laktose)",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25": {
-      "description": {
-        "DE": "Schalenfrüchte",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "26": {
-      "description": {
-        "DE": "Sellerie",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "27": {
-      "description": {
-        "DE": "Senf",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "28": {
-      "description": {
-        "DE": "Sesamsamen",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "29": {
-      "description": {
-        "DE": "Schwefeldioxid",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "30": {
-      "description": {
-        "DE": "Sulfite",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "31": {
-      "description": {
-        "DE": "Lupinen",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "32": {
-      "description": {
-        "DE": "Weichtiere",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "34": {
-      "description": {
-        "DE": "Gluten",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "35": {
-      "description": {
-        "DE": "Fisch",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/fish"
-    },
-    "18R": {
-      "description": {
-        "DE": "Rindergelatine",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/beef"
-    },
-    "25C": {
-      "description": {
-        "DE": "Schalenfrüchte-Cashewkerne",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25H": {
-      "description": {
-        "DE": "Schalenfrüchte-Haselnuss",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25Ma": {
-      "description": {
-        "DE": "Schalenfrüchte-Macadamia",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25Mn": {
-      "description": {
-        "DE": "Schalenfrüchte-Mandel",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25P": {
-      "description": {
-        "DE": "Schalenfrüchte-Pistazie",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25PK": {
-      "description": {
-        "DE": "Schalenfrüchte-Pekanuss",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "25W": {
-      "description": {
-        "DE": "schalenfruechte_walnuss",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "34D": {
-      "description": {
-        "DE": "Gluten-Dinkel",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "34G": {
-      "description": {
-        "DE": "Gluten-Gerste",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "34H": {
-      "description": {
-        "DE": "Gluten-Hafer",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "34R": {
-      "description": {
-        "DE": "Gluten-Roggen",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "34W": {
-      "description": {
-        "DE": "Gluten-Weizen",
-        "EN": ""
-      },
-      "recommendedIcon": null
-    },
-    "G": {
-      "description": {
-        "DE": "Geflügel",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/poultry"
-    },
-    "L": {
-      "description": {
-        "DE": "Lamm",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/lamb"
-    },
-    "R": {
-      "description": {
-        "DE": "Rind",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/beef"
-    },
-    "S": {
-      "description": {
-        "DE": "Schweinefleisch",
-        "EN": ""
-      },
-      "recommendedIcon": "/img/icons/pork"
-    }
-  }
 }
 ```
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
+|`"spec"`|*number*|NA|G|`"spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0"`|-|
+|`"specVersion"`|*-*|-|-|`"specVersion": 0`|-|
+|`"company"`|*-*|-|-|`"company": "Studierendenwerk Ulm"`|-|
+|`"website"`|*-*|-|-|`"website": "https://studierendenwerk-ulm.de/"`|-|
+|`"address"`|*-*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
+|`"disclaimerData"`|*-*|-|-|`"TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL"`|-|
+|`"shops"`|*-*|-|-|`"shops" : [{},...,{}]`|-|
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`"shopId"`|*-*|-|-|`"shopId": "610"`|-|
+|`"name"`|*-*|-|-|`"name": "Mensa, Uni Ulm"`|-|
+|`"address"`|*-*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
+|`"city"`|*-*|-|-|`"city": ["Ulm"]`|-|
+|`"universities"`|*-*|-|-|`"universities": ["Uni Ulm","HS Ulm"]`|-|
+|`"coordinates"`|*-*|-|-|`"coordinates": {"latitude": 48.422065,"longitude": 9.955517,"altitude": 604}`|-|
+|`"latitude"`|*-*|-|-|`"latitude": 48.422065`|-|
+|`"longitude"`|*-*|-|-|`"longitude": 9.955517`|-|
+|`altitude`|*-*|-|-|`"altitude": 604`|-|
+|`"shopMetadataUrlPathSuffix"`|*-*|-|-|`"shopMetadataUrlPathSuffix": "/shops/610.json"`|-|
+
+
+```json
+{
+  "timestamp": "2017-12-20T16:34:41+01:00",
+  "spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0",
+  "specVersion": 0,
+  "company": "Studierendenwerk Ulm",
+  "website": "https://studierendenwerk-ulm.de/",
+  "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+  "disclaimerData": "TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL",
+  "shops": [
+    {
+      "shopId": "610",
+      "name": "Mensa, Uni Ulm",
+      "address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm",
+      "city": [
+        "Ulm"
+      ],
+      "universities": [
+        "Uni Ulm",
+        "HS Ulm"
+      ],
+      "coordinates": {
+        "latitude": 48.422065,
+        "longitude": 9.955517,
+        "altitude": 604
+      },
+      "shopMetadataUrlPathSuffix": "/shops/610.json"
+    },
+    {
+      "shopId": "710a",
+      "name": "Cafeteria South Side, Uni Ulm",
+      "TODO" : "TODO"
+    },
+    {
+      "shopId": "710b",
+      "name": "Cafeteria Nord, Uni Ulm",
+      "TODO" : "TODO"
+    }
+]
+}
+``` 
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`-`|*-*|-|-|`-`|-|
