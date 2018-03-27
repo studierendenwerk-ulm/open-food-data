@@ -104,47 +104,47 @@ ___
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
 |`"specVersion"`|*number*|NA|G|`"specVersion": 0`|hier wird die Version der JSON dargestellt|
 |`"shopId"`|*string*|AUSGABENSTELLEID|G|`"shopId": "610"`|-|
-|`"foodDataUrlPathInfix"`|*string*|-|-|`"foodDataUrlPathInfix": "/menu/610/"`|-|
-|`"foodClassificationUrlPathSuffix"`|*string*|-|-|`"foodClassificationUrlPathSuffix": "/shops/classification_default.json"`|-|
+|`"foodDataUrlPathInfix"`|*string*|NA|G|`"foodDataUrlPathInfix": "/menu/610/"`|-|
+|`"foodClassificationUrlPathSuffix"`|*string*|NA|G|`"foodClassificationUrlPathSuffix": "/shops/classification_default.json"`|-|
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"priceCategories"`|*object*|-|-|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|-|
-|`"1"`|*string*|-|-|`"1": "Studierende"`|-|
-|`"2"`|*string*|-|-|`"2": "Mitarbeiter"`|-|
-|`"3"`|*string*|-|-|`"3": "Gäste"`|-|
-
-
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|`"website"`|*string*|-|-|`"website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm"`|-|
-|`"feedback"`|*string*|-|-|`"feedback": "mensa@studierendenwerk-ulm.de"`|-|
-|`"specialsPermanent"`|*string*|-|-|`"specialsPermanent": ["Happy Hour von 13:45 bis 14:00 Uhr."]`|-|
-|`"importantInformation"`|*string*|-|-|`"importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!"`|-|
-
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|`"footNotes"`|*array* ?|-|-|` "footNotes": ["Änderungen vorbehalten.","Wir verwenden jodiertes Salz.","Kontakt: mensa@studierendenwerk-ulm.de"]`|-|
+|`"priceCategories"`|*object*|PREIS1 bis ...5|G|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|-|
+|`"1"`|*string*|VKPREIS|G|`"1": "Studierende"`|-|
+|`"2"`|*string*|VKPREIS|G|`"2": "Mitarbeiter"`|-|
+|`"3"`|*string*|VKPREIS|G|`"3": "Gäste"`|-|
 
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"inDoorLocation"`|*object*|-|-|`"inDoorLocation": {"building": "Uni Ost","level": "Niveau 2","room": "Mensa","nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]}`|-|
-|`"building"`|*string*|-|-|`"building": "Uni Ost"`|-|
-|`"level"`|*string*|-|-|`"level": "Niveau 2"`|-|
-|`"room"`|*string*|-|-|`"room": "Mensa"`|-|
-|`"nextTo"`|*array*|-|-|`"nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]`|-|
+|`"website"`|*string*|NA|G|`"website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm"`|-|
+|`"feedback"`|*string*|NA|G|`"feedback": "mensa@studierendenwerk-ulm.de"`|-|
+|`"specialsPermanent"`|*string*|NA|O|`"specialsPermanent": ["Happy Hour von 13:45 bis 14:00 Uhr."]`|-|
+|`"importantInformation"`|*string*|NA|O|`"importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!"`|-|
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`"footNotes"`|*array* ?|NA|G|` "footNotes": ["Änderungen vorbehalten.","Wir verwenden jodiertes Salz.","Kontakt: mensa@studierendenwerk-ulm.de"]`|-|
+
+
+|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`"inDoorLocation"`|*object*|NA|G|`"inDoorLocation": {"building": "Uni Ost","level": "Niveau 2","room": "Mensa","nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]}`|-|
+|`"building"`|*string*|NA|G|`"building": "Uni Ost"`|-|
+|`"level"`|*string*|NA|G|`"level": "Niveau 2"`|-|
+|`"room"`|*string*|NA|G|`"room": "Mensa"`|-|
+|`"nextTo"`|*array*|NA|G|`"nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]`|-|
 
 
 
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"openingHours"`|*array*|-|-|`"openingHours": [{},{},...,{}]`|-|
-|`"start"`|*string*|-|-|`"start": "2017-10-16"`|-|
-|`"end"`|*string*|-|-|`"end": "2018-02-17"`|-|
-|`"periodDescription"`|*string*|-|-|`"periodDescription": "Vorlesungszeit"`|-|
-|`"mo"/"di"/...`|*string*|-|-|`"mo": [1130,1400]`|-|
+|`"openingHours"`|*array*|NA|G|`"openingHours": [{},{},...,{}]`|-|
+|`"start"`|*string*|NA|G|`"start": "2017-10-16"`|-|
+|`"end"`|*string*|NA|G|`"end": "2018-02-17"`|-|
+|`"periodDescription"`|*string*|NA|G|`"periodDescription": "Vorlesungszeit"`|-|
+|`"mo"/"di"/...`|*string*|NA|G|`"mo": [1130,1400]`|-|
 
 
 [Beispiel JSON SHOPS ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/610.json)
@@ -191,22 +191,6 @@ ___
         1130,
         1400
       ],
-      "di": [
-        1130,
-        1400
-      ],
-      "mi": [
-        1130,
-        1400
-      ],
-      "do": [
-        1130,
-        1400
-      ],
-      "fr": [
-        1130,
-        1330
-      ],
       "sa": null,
       "so": null
     },
@@ -215,22 +199,6 @@ ___
       "end": "2018-04-15",
       "periodDescription": "Vorlesungsfreie Zeit",
       "mo": [
-        1130,
-        1330
-      ],
-      "di": [
-        1130,
-        1330
-      ],
-      "mi": [
-        1130,
-        1330
-      ],
-      "do": [
-        1130,
-        1330
-      ],
-      "fr": [
         1130,
         1330
       ],
@@ -244,22 +212,6 @@ ___
       "mo": [
         1130,
         1400
-      ],
-      "di": [
-        1130,
-        1400
-      ],
-      "mi": [
-        1130,
-        1400
-      ],
-      "do": [
-        1130,
-        1400
-      ],
-      "fr": [
-        1130,
-        1330
       ],
       "sa": null,
       "so": null
@@ -275,12 +227,12 @@ ___
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"characterization"`|*object*|-|-|`"characterization": {"veg": {"description": {"DE": "vegetarisch","EN": "vegetarian"},"recommendedIcon": "img/icons/meatless"}`|-|
-|`"veg"`|*object*|-|-|`"veg": {"description": {...}}`|-|
-|`"description"`|*object*|-|-|`"description": {"DE": "vegetarisch","EN": "vegetarian"}`|-|
-|`"DE"`|*string*|-|-|`"DE": "vegetarisch"`|-|
-|`"EN"`|*string*|-|-|`"EN": "vegetarian"`|-|
-|` "recommendedIcon"`|*string*|-|-|`"recommendedIcon": "img/icons/meatless"`|-|
+|`"characterization"`|*object*|MENUEKENNZTEXT|G|`"characterization": {"veg": {"description": {"DE": "vegetarisch","EN": "vegetarian"},"recommendedIcon": "img/icons/meatless"}`|-|
+|`"veg"`|*object*|MENUEKENNZTEXT|G|`"veg": {"description": {...}}`|-|
+|`"description"`|*object*|NA|G|`"description": {"DE": "vegetarisch","EN": "vegetarian"}`|-|
+|`"DE"`|*string*|MENUEKENNZTEXT|G|`"DE": "vegetarisch"`|-|
+|`"EN"`|*string*|NA|O|`"EN": "vegetarian"`|-|
+|` "recommendedIcon"`|*string*|NA|O|`"recommendedIcon": "img/icons/meatless"`|-|
 
 [Beispiel JSON classification_defoult](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/classification_default.json)
 
@@ -296,30 +248,32 @@ ___
     },
 }
 ```
+___
+## [/open-food-data/bsp-json/shops.json](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
 |`"spec"`|*string*|NA|G|`"spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0"`|-|
-|`"specVersion"`|*number*|-|-|`"specVersion": 0`|-|
-|`"company"`|*string*|-|-|`"company": "Studierendenwerk Ulm"`|-|
-|`"website"`|*string*|-|-|`"website": "https://studierendenwerk-ulm.de/"`|-|
-|`"address"`|*string*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
-|`"disclaimerData"`|*string*|-|-|`"TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL"`|-|
-|`"shops"`|*array*|-|-|`"shops" : [{},...,{}]`|-|
+|`"specVersion"`|*number*|NA|G|`"specVersion": 0`|-|
+|`"company"`|*string*|NA|G|`"company": "Studierendenwerk Ulm"`|-|
+|`"website"`|*string*|NA|G|`"website": "https://studierendenwerk-ulm.de/"`|-|
+|`"address"`|*string*|NA|G|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
+|`"disclaimerData"`|*string*|NA|G|`"TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL"`|-|
+|`"shops"`|*array*|NA|G|`"shops" : [{},...,{}]`|-|
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"shopId"`|*string*|-|-|`"shopId": "610"`|-|
-|`"name"`|*string*|-|-|`"name": "Mensa, Uni Ulm"`|-|
-|`"address"`|*string*|-|-|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
-|`"city"`|*array*|-|-|`"city": ["Ulm"]`|-|
-|`"universities"`|*array*|-|-|`"universities": ["Uni Ulm","HS Ulm"]`|-|
-|`"coordinates"`|*object*|-|-|`"coordinates": {"latitude": 48.422065,"longitude": 9.955517,"altitude": 604}`|-|
-|`"latitude"`|*string*|-|-|`"latitude": 48.422065`|-|
-|`"longitude"`|*string*|-|-|`"longitude": 9.955517`|-|
-|`altitude`|*string*|-|-|`"altitude": 604`|-|
-|`"shopMetadataUrlPathSuffix"`|*string*|-|-|`"shopMetadataUrlPathSuffix": "/shops/610.json"`|-|
+|`"shopId"`|*string*|AUSGABENSTELLENID|G|`"shopId": "610"`|-|
+|`"name"`|*string*|NA|G|`"name": "Mensa, Uni Ulm"`|-|
+|`"address"`|*string*|NA|G|`"address": "Studierendenwerk Ulm, James-Franck-Ring 8, 89081 Ulm"`|-|
+|`"city"`|*array*|NA|G|`"city": ["Ulm"]`|-|
+|`"universities"`|*array*|NA|G|`"universities": ["Uni Ulm","HS Ulm"]`|-|
+|`"coordinates"`|*object*|NA|G|`"coordinates": {"latitude": 48.422065,"longitude": 9.955517,"altitude": 604}`|-|
+|`"latitude"`|*string*|NA|G|`"latitude": 48.422065`|-|
+|`"longitude"`|*string*|NA|G|`"longitude": 9.955517`|-|
+|`altitude`|*string*|NA|G|`"altitude": 604`|-|
+|`"shopMetadataUrlPathSuffix"`|*string*|NA|G|`"shopMetadataUrlPathSuffix": "/shops/610.json"`|-|
 
 
 ```json
@@ -363,7 +317,7 @@ ___
 ]
 }
 ``` 
-
+___
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`-`|*-*|-|-|`-`|-|
