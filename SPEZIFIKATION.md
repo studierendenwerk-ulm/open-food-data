@@ -13,8 +13,8 @@ ___
 |`"specVersion"`|*number*|NA|G|`"specVersion": 0`|hier wird die Version der JSON dargestellt|
 |`"shopId"`|*string*|AUSGABENSTELLEID|G|`"shopId": "610"`|-| 
 |`"date"`|*string*|PRODUKTIONSDATUM|G|`"date": "2017-12-11"`|-|
-|`"closed"`|*boolean/array*|NA|O|`"closed": null`|-|
-|`"meals"`|*array*|NA|G |`"meals": [{},{},...,{}]`|Array aus Objekten|
+|`"closed"`|*boolean/array*|NA|O|`"closed": null`|wenn null, dann gibt es keine weiteren Informationen, sonst gilt dass es besondere Zeiten gibt, welche in einem Array dargestellt werdfen (siehe [Beispiel JSON SHOPS ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/shops/610.json) ) |
+|`"meals"`|*array*|NA|G |`"meals": [{},{},...,{}]`|ist ein Array aus Objekten, welches wieder Arrays aus Objekten enthalten kann|
 
 [Beispiel JSON Mensa ](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
 ```json
@@ -36,18 +36,18 @@ ___
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"mealId"`|*number*|DISPOART_ID|G|`"mealId": 61`|-| 
-|`"currentlyAvailable"`|*boolean*|NA|O|`"currentlyAvailable": true`|-|
-|`"description"`|*object*|BEZEICHNUNG |G|`"description": {"DE": "Brokkolicremsuppe","EN": null }`|-|
+|`"mealId"`|*number*|DISPOART_ID|G|`"mealId": 61`|Jedes Gericht bekommt eine eindeutige ID| 
+|`"currentlyAvailable"`|*boolean*|NA|O|`"currentlyAvailable": true`|ist abhängig von der Aktuellen Datenpflege, da es nicht gesichert ist, dass bei einem Ausverkauf auch dieser in dem System registriert wird. Deshalb defoult true|
+|`"description"`|*object*|BEZEICHNUNG |G|`"description": {"DE": "Brokkolicremsuppe","EN": null }`|Soll die kurze Bezeichnung des Gerichtes wieder geben in deutch und in englisch (falls vorhanden)|
 |`"dispositionId"`|*number*|DISPOART_ID|G|`"dispositionId": 61`|-|
 |`"dispositionDescription"`|*object*|SPARTENBEZEICHNUNG|G|`"description": {"DE":"Suppe","EN": null }`|-|
 |`"recommendedOrdering"`|*number*|ZEILENNUMMER (ZEILENUMMER)?|G|`"recommendedOrdering": 2`|-|
 |`"ingredients"`|*array*|ZUSATZKENNZEICHNUNG|G|`"ingredients": ["23","26","34W"]`|-|
-|`"characterization"`|*array*|MENUEKENNZEICHNUNG|G|`"characterization": ["van","bio"]`|-|
-|`"imgUrlPathSuffix"`|*string/null*|NA|G|`"imgUrlPathSuffix": null`|-|
+|`"characterization"`|*array*|MENUEKENNZEICHNUNG|G|`"characterization": ["van","bio"]`|hier die gängigen Bezeichungen möglicher Diät-Formen|
+|`"imgUrlPathSuffix"`|*string/null*|NA|G|`"imgUrlPathSuffix": null`|Ein Suffix, auch Postfix genannt, ist eine Hinzufügung am Ende eines Wortes. Also die URl plus den genauen Bezeichner|
 |`"specialTimeWindow"`|*array*|NA|O|`"specialTimeWindow": [1130,1345]`|-|
-|`"price"`|*object*|PREIS1 bis ...5|G|`"price":{"1":1.8,"2":2.25,"3":3.2,"4":5.6}`|-|
-|`"nutritionInformation"`|*array/null*|(NÄHRWERTE)?|O|`"nutritionInformation":null`|-|
+|`"price"`|*object*|PREIS1 bis ...5|G|`"price":{"1":1.8,"2":2.25,"3":3.2,"4":5.6}`| vorgesehen sind Studenten, Mitarbeiter, Gäste. Es sollte aber auch eventuell Schüler und eine weiter Option verfügber sein.|
+|`"nutritionInformation"`|*array/null*|(NÄHRWERTE)?|O|`"nutritionInformation":null`|hier sollen die Möglichen Nährwerttabellen angeben werden. Wenn dieser Wert null ist, kann keine Information zu diesm Gericht ausgegeb werden.|
 
 
 
@@ -104,12 +104,12 @@ ___
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
 |`"specVersion"`|*number*|NA|G|`"specVersion": 0`|hier wird die Version der JSON dargestellt|
 |`"shopId"`|*string*|AUSGABENSTELLEID|G|`"shopId": "610"`|-|
-|`"foodDataUrlPathInfix"`|*string*|NA|G|`"foodDataUrlPathInfix": "/menu/610/"`|-|
-|`"foodClassificationUrlPathSuffix"`|*string*|NA|G|`"foodClassificationUrlPathSuffix": "/shops/classification_default.json"`|-|
+|`"foodDataUrlPathInfix"`|*string*|NA|G|`"foodDataUrlPathInfix": "/menu/610/"`|Ein Infix ist eine Hinzufügung innerhalb eines Wortes. |
+|`"foodClassificationUrlPathSuffix"`|*string*|NA|G|`"foodClassificationUrlPathSuffix": "/shops/classification_default.json"`|Ein Suffix, auch Postfix genannt, ist eine Hinzufügung am Ende eines Wortes. |
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|`"priceCategories"`|*object*|PREIS1 bis ...5|G|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|-|
+|`"priceCategories"`|*object*|PREIS1 bis ...5|G|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|Die priceCategories, sollen eine tendenziell variable Anzahl sein, da es shop abhängig ist, welche Priese genau vorhanden sind. |
 |`"1"`|*string*|VKPREIS|G|`"1": "Studierende"`|-|
 |`"2"`|*string*|VKPREIS|G|`"2": "Mitarbeiter"`|-|
 |`"3"`|*string*|VKPREIS|G|`"3": "Gäste"`|-|
@@ -119,8 +119,8 @@ ___
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"website"`|*string*|NA|G|`"website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm"`|-|
 |`"feedback"`|*string*|NA|G|`"feedback": "mensa@studierendenwerk-ulm.de"`|-|
-|`"specialsPermanent"`|*string*|NA|O|`"specialsPermanent": ["Happy Hour von 13:45 bis 14:00 Uhr."]`|-|
-|`"importantInformation"`|*string*|NA|O|`"importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!"`|-|
+|`"specialsPermanent"`|*string*|NA|O|`"specialsPermanent": ["Happy Hour von 13:45 bis 14:00 Uhr."]`|Hier können variable Texter ausgegben werden, um die Kunden über besondere Angebote zu informieren, potenziell kann dies auch ein weiteres meal sein, mit einer eigenen priceCategorie|
+|`"importantInformation"`|*string*|NA|O|`"importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!"`|Dies sollte sehr Fehlerfrei sein, da so wichtige und lebensnotwendige Informationen herausgegeben werden können, für die nicht gehaftet wird.|
 
 |Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
