@@ -1,12 +1,14 @@
 # OpenFoodData
 
-*Eine Spezifikation zur Veröffentlichung von Speiseangeboten in einem strukturierten Datenformat.*
+*Spezifikation zur Veröffentlichung von Speiseplänen/-angeboten in einem strukturierten Datenformat.*
 
-Statt der Veröffentlichung eines für Druck oder Bildschirm gestalteten tabellarischen Wochenplans oder z.B. einer Liste für einen Tagesplan kann ein Speiseangebot mit diesem Standard als Rohdaten in JSON veröffentlicht werden.
+Statt der Veröffentlichung eines für Druck oder Bildschirm gestalteten tabellarischen Speiseplans (z.B. Tages- und Wochenpläne) kann ein Speiseangebot mit diesem Standard sozusagen als "Rohdaten" in JSON veröffentlicht werden.
 
-Bei der Entwicklung wurden für die erste Version (v1) v.a. die Anforderungen von Hochschulmensen berücksichtigt. Vermutlich genügt die Spezifiktion den meisten Betrieben der Gemeinschaftsversorgung, evtl. auch der allgemeinen Gastronomie. In einem für später angedachten zweiten Schritt (spätere Version) soll auch das Angebot von (Hochschul-)Cafeterien abgebildet werden können, das sich typischweise nicht täglich ändert. Bei Weiterentwicklungen soll eine Abwärtskompatibilität zu vorigen Versionen starkes Gewicht haben.
+Bei der Entwicklung wurden für die erste Version (v1) v.a. die Anforderungen von Hochschulmensen berücksichtigt. Vermutlich genügt die Spezifiktion den meisten Betrieben der Gemeinschaftsversorgung, evtl. auch der allgemeinen Gastronomie.
+In einer späteren Version soll auch das Angebot von (Hochschul-)Cafeterien abgebildet werden können, das sich typischweise nicht täglich ändert.
+Bei Weiterentwicklungen soll Abwärtskompatibilität gewährleistet werden.
 
-Eine dieser Spezifikation entsprechende Schnittstelle soll Dritten die Möglichkeit bieten die Daten eines Speiseangebots abzurufen, um damit einen Dienst anbieten zu können (z.B. Smartphone-App, Anzeige des Tagesplans an einem dititalen Schwarzen Brett, Erzeugen einer spezialisierten alternativen Darstellung). Der eigentlichen Spezifiktion `SPEZIFIKATION.md` liegen zum leichteren Verständnis im Ordner `bsp-json/` Beispieldaten. Die Datei- und Ordnerstruktur in `bsp-json/` stellt außerdem eine exemplarische Definition einer Schnittstelle dar, mit der ein Speiseangebot sozusagen “flat file” über einen Webserver veröffentlicht werden können.
+Eine dieser Spezifikation entsprechende Schnittstelle soll Dritten die Möglichkeit bieten die Daten eines Speiseangebots abzurufen, um damit einen Dienst anbieten zu können, z.B. Smartphone-App, Anzeige des Tagesplans an einem dititalen Schwarzen Brett, Erzeugen einer spezialisierten alternativen Darstellung. Der eigentlichen Spezifiktion `SPEZIFIKATION.md` liegen zum leichteren Verständnis im Ordner `bsp-json/` Beispieldaten. Die Datei- und Ordnerstruktur in `bsp-json/` stellt außerdem eine exemplarische Definition einer Schnittstelle dar, mit der ein Speiseangebot sozusagen “flat file” über einen Webserver veröffentlicht werden können.
 
 Grob zusammengefasst definiert die Spezifikation die Veröffentlichung der folgenden Daten:
  * an einem bestimmten Tag angebotene Speise
