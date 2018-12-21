@@ -7,7 +7,7 @@ ___
 |G = garantierte Werte | O = optionale Werte|
 |:-:|:-:|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:| 
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
 |`"specVersion"`|*number*|NA|G|`"specVersion": 0`|hier wird die Version der JSON dargestellt|
@@ -34,7 +34,7 @@ ___
 |G = garantierte Werte | O = optionale Werte|
 |:-:|:-:|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"mealId"`|*number*|DISPOART_ID|G|`"mealId": 61`|Jedes Gericht bekommt eine eindeutige ID| 
 |`"currentlyAvailable"`|*boolean*|NA|O|`"currentlyAvailable": true`|ist abhängig von der Aktuellen Datenpflege, da es nicht gesichert ist, dass bei einem Ausverkauf auch dieser in dem System registriert wird. Deshalb defoult true|
@@ -99,7 +99,7 @@ ___
 |G = garantierte Werte | O = optionale Werte|
 |:-:|:-:|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
 |`"specVersion"`|*number*|NA|G|`"specVersion": 0`|hier wird die Version der JSON dargestellt|
@@ -107,7 +107,7 @@ ___
 |`"foodDataUrlPathInfix"`|*string*|NA|G|`"foodDataUrlPathInfix": "/menu/610/"`|Ein Infix ist eine Hinzufügung innerhalb eines Wortes. |
 |`"foodClassificationUrlPathSuffix"`|*string*|NA|G|`"foodClassificationUrlPathSuffix": "/shops/classification_default.json"`|Ein Suffix, auch Postfix genannt, ist eine Hinzufügung am Ende eines Wortes. |
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"priceCategories"`|*object*|PREIS1 bis ...5|G|`"priceCategories": {"1": "Studierende","2": "Mitarbeiter","3": "Gäste"}`|Die priceCategories, sollen eine tendenziell variable Anzahl sein, da es shop abhängig ist, welche Priese genau vorhanden sind. |
 |`"1"`|*string*|VKPREIS|G|`"1": "Studierende"`|-|
@@ -115,14 +115,14 @@ ___
 |`"3"`|*string*|VKPREIS|G|`"3": "Gäste"`|-|
 
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"website"`|*string*|NA|G|`"website": "https://studierendenwerk-ulm.de/essen-trinken/mensen-und-cafeterien/#einrichtungen-uni-ulm"`|-|
 |`"feedback"`|*string*|NA|G|`"feedback": "mensa@studierendenwerk-ulm.de"`|-|
 |`"specialsPermanent"`|*string*|NA|O|`"specialsPermanent": ["Happy Hour von 13:45 bis 14:00 Uhr."]`|Hier können variable Texter ausgegben werden, um die Kunden über besondere Angebote zu informieren, potenziell kann dies auch ein weiteres meal sein, mit einer eigenen priceCategorie|
 |`"importantInformation"`|*string*|NA|O|`"importantInformation": "In H3 gab es einen Feueralarm, deshalb musste die Mensa für heute geräumt werden!"`|Dies sollte sehr Fehlerfrei sein, da so wichtige und lebensnotwendige Informationen herausgegeben werden können, für die nicht gehaftet wird.|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"footNotes"`|*array* ?|NA|G|` "footNotes": ["Änderungen vorbehalten.","Wir verwenden jodiertes Salz.","Kontakt: mensa@studierendenwerk-ulm.de"]`|-|
 
@@ -138,7 +138,7 @@ ___
 
 
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"openingHours"`|*array*|NA|G|`"openingHours": [{},{},...,{}]`|-|
 |`"start"`|*string*|NA|G|`"start": "2017-10-16"`|-|
@@ -225,7 +225,7 @@ ___
 |G = garantierte Werte | O = optionale Werte|
 |:-:|:-:|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"characterization"`|*object*|MENUEKENNZTEXT|G|`"characterization": {"veg": {"description": {"DE": "vegetarisch","EN": "vegetarian"},"recommendedIcon": "img/icons/meatless"}`|-|
 |`"veg"`|*object*|MENUEKENNZTEXT|G|`"veg": {"description": {...}}`|-|
@@ -251,7 +251,7 @@ ___
 ___
 ## [/open-food-data/bsp-json/shops.json](https://github.com/studierendenwerk-ulm/open-food-data/blob/bsp-realdata/bsp-json/menu/610/2017/by-day/610-2017-12-11.json)
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"timestamp"`|*string*|NA|G|`"timestamp": "2017-12-20T16:34:41+01:00"`|Zeitpunkt wann diese JSON genneriert wurde|
 |`"spec"`|*string*|NA|G|`"spec": "https://github.com/studierendenwerk-ulm/open-food-data/tree/v0"`|-|
@@ -262,7 +262,7 @@ ___
 |`"disclaimerData"`|*string*|NA|G|`"TODO Nutzungsbedingungen für die hier veröffentlichten Daten: ..., URL"`|-|
 |`"shops"`|*array*|NA|G|`"shops" : [{},...,{}]`|-|
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"shopId"`|*string*|AUSGABENSTELLENID|G|`"shopId": "610"`|-|
 |`"name"`|*string*|NA|G|`"name": "Mensa, Uni Ulm"`|-|
@@ -318,6 +318,6 @@ ___
 }
 ``` 
 ___
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`-`|*-*|-|-|`-`|-|
