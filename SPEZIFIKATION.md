@@ -127,7 +127,7 @@ ___
 |`"footNotes"`|*array* ?|NA|G|` "footNotes": ["Änderungen vorbehalten.","Wir verwenden jodiertes Salz.","Kontakt: mensa@studierendenwerk-ulm.de"]`|-|
 
 
-|Name|JSON Value|tl1 DB|G/O|Beispiel|Hinweis| 
+|Name|JSON Value|DB|G/O|Beispiel|Hinweis| 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |`"inDoorLocation"`|*object*|NA|G|`"inDoorLocation": {"building": "Uni Ost","level": "Niveau 2","room": "Mensa","nextTo": ["Infopoint Studierendenwerk","Gebäudekreuz O25","Eingang Süd"]}`|-|
 |`"building"`|*string*|NA|G|`"building": "Uni Ost"`|-|
